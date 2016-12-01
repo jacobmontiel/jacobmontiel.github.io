@@ -105,6 +105,14 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/psif.png"
+    date: "July 2016"
+    description: "Data Science Fellow @ Paris Summer Innocation Fellowship,
+    Optimizing restaurant health inspections through advanced analytics" # http://www.summerfellows.paris/
+  - image: "/img/timeline/conacyt.png"
+    date: "Octobre 2015 - Today"
+    description: "Scholarship Fellow from the Mexican National Council
+    of Science and Technology (CONACYT)" # http://www.summerfellows.paris/
   - image: "/img/timeline/ge.png"
     date: "August 2012-Octobre 2015"
     description: "Project Engineer Leader (Tech Lead)
@@ -119,35 +127,29 @@ events:
     description: "SW Engineer @ General Electric Aviation
     @ Prognostics and Health Management" # http://www.geaviation.com/bga/services/prognostic-health-management-plus/
   - image: "/img/timeline/titech.png"
-    date: "2010"
-    description: "Master's degree @
-    Tokyo Institute of Technology on
-    Computer Science"
+    date: "March 2010"
+    description: "Master's degree @ Tokyo Institute of Technology,
+    on Computer Science"
   - image: "/img/timeline/titech.png"
-    date: "2009-2010"
-    description: "Research Assistant @
-    Global Edge Institute @
-    Tokyo Institute of Technology"
+    date: "April 2009- March 2010"
+    description: "Research Assistant @ Global Edge Institute
+    @ Tokyo Institute of Technology"
   - image: "/img/timeline/MEXT.png"
-    date: "2007-2010"
-    description: "Monbukagakusho Scholarship
-    Fellow - Embassy recommendation"
+    date: "April 2007- March 2010"
+    description: "Monbukagakusho Scholarship Fellow - Embassy recommendation"
   - image: "/img/timeline/inaoe.jpg"
-    date: "2005-2007"
+    date: "June 2005- April 2007"
     description: "Research Assistant @
-    National Institute of Astrophysics,
-    Optics and Electronics, working on
-    Digital Image Processing"
+    National Institute of Astrophysics, Optics and Electronics,
+     on Digital Image Processing"
   - image: "/img/timeline/itp.png"
-    date: "2015"
+    date: "April 2015"
     description: "Bachelor degree @
-    Puebla Institute of Technology
-    on Electrical Engineering"
+    Puebla Institute of Technology, on Electrical Engineering"
   - image: "/img/timeline/mcgill.gif"
     date: "September 2004 - January 2005"
-    description: "Intern @ McGill University,
-    Centre for Intelligent Machines,
-    working on Digital Image Processing"
+    description: "Research Intern @ McGill University
+    @ Centre for Intelligent Machines, on Digital Image Processing"
 
 # First image of the Timeline
 
