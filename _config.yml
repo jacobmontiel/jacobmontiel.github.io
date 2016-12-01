@@ -109,10 +109,13 @@ events:
     date: "July 2016"
     description: "Data Science Fellow @ Paris Summer Innocation Fellowship,
     Optimizing restaurant health inspections through advanced analytics" # http://www.summerfellows.paris/
+  - image: "/img/timeline/telecom.png"
+    date: "Octobre 2015 - Today"
+    description: "PhD Student @ Télécom ParisTech (Université Paris-Saclay)
   - image: "/img/timeline/conacyt.png"
     date: "Octobre 2015 - Today"
     description: "PhD Scholarship Fellow, Mexican National Council
-    of Science and Technology (CONACYT)" # http://www.summerfellows.paris/
+    of Science and Technology (CONACYT)" # http://www.conacyt.gob.mx/
   - image: "/img/timeline/ge.png"
     date: "August 2012-Octobre 2015"
     description: "Project Engineer Leader (Tech Lead)
