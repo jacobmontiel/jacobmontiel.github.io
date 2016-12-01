@@ -105,12 +105,12 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/titech.jpg"
+  - image: "/img/timeline/titech.png"
     date: "2010"
     description: "Master's degree @
     Tokyo Institute of Technology on
     Computer Science"
-  - image: "/img/timeline/titech.jpg"
+  - image: "/img/timeline/titech.png"
     date: "2009-2010"
     description: "Research Assistant @
     Global Edge Institute @
@@ -119,13 +119,13 @@ events:
     date: "2007-2010"
     description: "Monbukagakusho Scholarship
     Fellow - Embassy recommendation"
-  - image: "/img/timeline/inaoe.png"
+  - image: "/img/timeline/inaoe.jpg"
     date: "2005-2007"
     description: "Research Assistant @
     National Institute of Astrophysics,
     Optics and Electronics, working on
     Digital Image Processing"
-  - image: "/img/timeline/itp.jpg"
+  - image: "/img/timeline/itp.png"
     date: "2015"
     description: "Bachelor degree @
     Puebla Institute of Technology
