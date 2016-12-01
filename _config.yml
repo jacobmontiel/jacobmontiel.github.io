@@ -105,6 +105,19 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/ge.png"
+    date: "August 2012-Octobre 2015"
+    description: "Project Engineer Leader (Tech Lead)
+    @ General Electric Aviation Systems
+    @ Vehicle Health and Data Management" # http://www.geaviation.com/commercial/systems/avionics/
+  - image: "/img/timeline/ge.png"
+    date: "July 2012-July 2014"
+    description: "Lead Engineer @ General Electric Aviation
+     @ Vehicle Health and Data Management"
+  - image: "/img/timeline/ge.png"
+    date: "September 2010-June 2012"
+    description: "SW Engineer @ General Electric Aviation
+    @ Prognostics and Health Management" # http://www.geaviation.com/bga/services/prognostic-health-management-plus/
   - image: "/img/timeline/titech.png"
     date: "2010"
     description: "Master's degree @
