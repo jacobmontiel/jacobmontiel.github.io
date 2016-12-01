@@ -119,7 +119,7 @@ events:
   - image: "/img/timeline/ge.png"
     date: "August 2012-Octobre 2015"
     description: "Project Engineer Leader (Tech Lead)
-    @ General Electric Aviation Systems
+    @ General Electric Aviation
     @ Vehicle Health and Data Management" # http://www.geaviation.com/commercial/systems/avionics/
   - image: "/img/timeline/ge.png"
     date: "July 2012-July 2014"
@@ -140,7 +140,7 @@ events:
   - image: "/img/timeline/MEXT.png"
     date: "April 2007- March 2010"
     description: "Monbukagakusho Scholarship Fellow - Embassy recommendation"
-  - image: "/img/timeline/inaoe.jpg"
+  - image: "/img/timeline/inaoe.png"
     date: "June 2005- April 2007"
     description: "Research Assistant @
     National Institute of Astrophysics, Optics and Electronics,
