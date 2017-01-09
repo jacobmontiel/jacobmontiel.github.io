@@ -41,7 +41,7 @@ favicon: ""
 # Header layout #
 ################
 
-black-favicon: ""
+#black-favicon: ""
 
 background-img: "/img/intro.jpg"
 
@@ -63,7 +63,7 @@ lines: # You can add HTML Tags in the Text
    that is all. - Oscar Wilde"
   - text: "Science is the Belief in the Ignorance of Experts - Richard Feynman"
   - text: "If I have seen a little further it is by standing on the shoulders of
-   Giants" 
+   Giants"
 
 me-img: "/img/me.jpg"
 
