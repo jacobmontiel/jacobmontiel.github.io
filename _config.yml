@@ -107,8 +107,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/psif.png"
     date: "July 2016"
-    description: "Data Science Fellow @ [Paris Summer Innovation Fellowship]\\
-    (http://www.summerfellows.paris/){:target='_blank'},
+    description: "Data Science Fellow @ [Paris Summer Innovation Fellowship](http://www.summerfellows.paris/){:target='_blank'},
     Optimizing restaurant health inspections through advanced analytics"
   - image: "/img/timeline/telecom.png"
     date: "Octobre 2015 - Today"
