@@ -116,14 +116,14 @@ events:
     date: "Octobre 2015 - Today"
     description: "PhD Scholarship Fellow, Mexican National Council
     of Science and Technology
-    [CONACYT](http://www.conacyt.gob.mx/){:target="_blank"}"
+    ([CONACYT](http://www.conacyt.gob.mx/){:target='_blank'})"
   - image: "/img/timeline/ge.png"
     date: "August 2014-Octobre 2015"
     description: "Project Engineer Leader (Tech Lead)
     @ General Electric Aviation
     @ Vehicle Health and Data Management" # http://www.geaviation.com/commercial/systems/avionics/
   - image: "/img/timeline/ge.png"
-    date: "July 2012-July 2014"
+    date: "July 2012-July 2014"[CONACYT](http://www.conacyt.gob.mx/){:target="_blank"}
     description: "Lead Engineer @ General Electric Aviation
      @ Vehicle Health and Data Management"
   - image: "/img/timeline/ge.png"
