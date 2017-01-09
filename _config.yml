@@ -98,8 +98,8 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-linkedin-share: True
+email-share: False
+linkedin-share: False
 
 disqus-shortname: "jacobmontiel"
 
@@ -177,9 +177,8 @@ email: "jacob.montiel(at)telecom-paristech.fr"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "I am a PhD student at Télécom ParisTech (Université Paris-Saclay).
-My research interest is in Machine Learning for Big Data."
-author_blurb_image: "/img/author.png"
+author_blurb: "I am a PhD student at Télécom ParisTech (Université Paris-Saclay)."
+author_blurb_image: "/img/me.jpg"
 
 ##################
 # Social Buttons #
