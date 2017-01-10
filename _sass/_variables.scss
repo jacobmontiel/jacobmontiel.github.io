@@ -10,13 +10,13 @@ $secondary-color: #00cdff;
 $font-color: #fff;
 
 // Contrast font color
-$contrast-color: #fcad56
+$contrast-color: #fcad56;
 
 $navbar-text-shadow: true;
 $header-text-shadow: true;
 $header-background-color: $primary-color;
 $intro-text-color: $contrast-color;
-$navbar-color: $font-color;
+$navbar-color: $contrast-color;
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
