@@ -47,7 +47,7 @@ Agriculture) and orange dots correspond to reviewed restaurants (TripAdvisor).
 
 ![Inspections and Reviews](/img/post_psif2016/inspections-reviews.png)
 
-<img style="border:none" src="/img/post_psif2016/steps.png" width="50%" />
+<img style="border:none" src="/img/post_psif2016/steps.png" width="80%" />
 
 ![Model](/img/post_psif2016/predictions.png)
 
