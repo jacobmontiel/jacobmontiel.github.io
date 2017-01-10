@@ -6,8 +6,6 @@ category: tech, data science
 tags: [ 'activities', 'data science'  ]
 ---
 
-# Paris Summer Innovation Fellowship
-
 ### Optimizing restaurant health inspections through advanced analytics
 
 <p style='text-align: justify;'>
@@ -15,15 +13,15 @@ The Ministry of Agriculture, Agri-food, and Forestry of France (Ministère de
 l'Agriculture, de l'Agroalimentaire et de la Forêt) continuously performs health
 inspections of restaurants. Such task is bounded by time and human resources,
 in other words, there is not enough time to inspect all restaurants in one year
-and there are not enough inspectors to speed up the process.
-
+and there are not enough inspectors to speed up the process.<br />
+<br />
 During 2015, 9000+ restaurants were inspected only in the Paris region. Each
-inspected restaurant was awarded a note:
-
-A: Everything is correct (Best)
-B: Minor issues
-C: Major issues that need to be corrected
-D: Major issues were previously found and were not corrected (Worst)
+inspected restaurant was awarded a note:<br />
+<br />
+A: Everything is correct (Best)<br />
+B: Minor issues<br />
+C: Major issues that need to be corrected<br />
+D: Major issues were previously found and were not corrected (Worst)<br />
 </p>
 
 ![Inspections 2015](/img/post_psif2016/inspection-notes.png)
