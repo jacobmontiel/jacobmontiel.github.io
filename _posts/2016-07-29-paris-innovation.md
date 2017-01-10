@@ -16,19 +16,19 @@ of the Data Science track.
 
 <p style='text-align: justify;'>
 The Ministry of Agriculture, Agri-food, and Forestry of France (Ministère de
-l'Agriculture, de l'Agroalimentaire et de la Forêt) regularly inspect businesses
-serving food to ensure restaurants and other food retail outlets are following
-safe food handling procedures. Such task is bounded by time and human resources,
-in other words, there is not enough time to inspect all restaurants in one year
-and there are not enough inspectors to speed up the process.<br />
+l'Agriculture, de l'Agroalimentaire et de la Forêt) regularly inspects
+businesses serving food to ensure restaurants and other food retail outlets are
+following safe food handling procedures. Such task is bounded by time and human
+resources, in other words, there is not enough time to inspect all restaurants
+in one year and there are not enough inspectors to speed up the process.<br />
 <br />
-During 2015, 9000+ restaurants were inspected only in the Paris region. Each
+During 2015, 843 restaurants were inspected only in the Paris region. Each
 inspected restaurant was awarded a note:<br />
 <br />
-A: Everything is correct (Best)<br />
+A: Everything is correct [Best]<br />
 B: Minor issues<br />
 C: Major issues that need to be corrected<br />
-D: Major issues were previously found and were not corrected (Worst)<br />
+D: Major issues were previously found and were not corrected [Worst]<br />
 </p>
 
 ![Inspections 2015](/img/post_psif2016/inspection-notes.png)
@@ -46,3 +46,9 @@ Agriculture) and orange dots correspond to reviewed restaurants (TripAdvisor).
 </p>
 
 ![Inspections and Reviews](/img/post_psif2016/inspections-reviews.png)
+
+![Steps](/img/post_psif2016/steps.png)
+
+![Model](/img/post_psif2016/predictions.png)
+
+![High Risk](/img/post_psif2016/note-d.png)
