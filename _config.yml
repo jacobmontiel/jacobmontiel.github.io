@@ -210,7 +210,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Activities: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
