@@ -10,6 +10,7 @@ tags: [ 'activities', 'data science'  ]
 
 ### Optimizing restaurant health inspections through advanced analytics
 
+<p style='text-align: justify;'>
 The Ministry of Agriculture, Agri-food, and Forestry of France (Ministère de
 l'Agriculture, de l'Agroalimentaire et de la Forêt) continuously performs health
 inspections of restaurants. Such task is bounded by time and human resources,
@@ -23,6 +24,7 @@ A: Everything is correct (Best)
 B: Minor issues
 C: Major issues that need to be corrected
 D: Major issues were previously found and were not corrected (Worst)
+</p>
 
 ![Inspections 2015](/img/post_psif2016/inspection-notes.png)
 
