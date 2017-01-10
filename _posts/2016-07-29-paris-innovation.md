@@ -6,8 +6,10 @@ category: tech, data science
 tags: [ 'activities', 'data science'  ]
 ---
 
-I participated in the [Paris Summer Innovation Fellowship](http://www.summerfellows.paris/){:target="_blank"}
+<p style='text-align: justify;'>
+I participated in the 2016 [Paris Summer Innovation Fellowship](http://www.summerfellows.paris/){:target="_blank"}
 as a fellow of the Data Science track.
+</p>
 
 ### Optimizing restaurant health inspections through advanced analytics
 
