@@ -8,7 +8,7 @@ tags: [ 'activities', 'data science' ]
 
 <p style='text-align: justify;'>
 I participated in the 2016 <a href="http://www.summerfellows.paris/"
-target="_blank"_>Paris Summer Innovation Fellowship</a> in the following project
+target="_blank">Paris Summer Innovation Fellowship</a> in the following project
 of the Data Science track.
 </p>
 
