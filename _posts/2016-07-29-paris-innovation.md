@@ -25,8 +25,8 @@ in one year and there are not enough inspectors to speed up the process.<br />
 During 2015, 843 restaurants were inspected only in the Paris region. Each
 inspected restaurant was awarded a note:<br />
 <br />
-A: Everything is correct [Best]<br />
-B: Minor issues<br />
+A: Everything is correct, no issues found [Best]<br />
+B: Correct with minor issues<br />
 C: Major issues that need to be corrected<br />
 D: Major issues were previously found and were not corrected [Worst]<br />
 </p>

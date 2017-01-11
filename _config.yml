@@ -212,6 +212,7 @@ pages_list:
   About: 'about'
   Activities: 'latest-post'
   Timeline: 'timeline'
+  Hobbies: 'hobbies'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
