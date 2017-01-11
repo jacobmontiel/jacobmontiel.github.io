@@ -57,7 +57,7 @@ Agriculture) and orange dots correspond to reviewed restaurants (TripAdvisor).
 <p style='text-align: justify;'>
 The project is composed of four major stages:<br />
 <br />
-1. Restaurants matching<br />
+<b>1. Restaurants matching</b><br />
 Since the data sets of reviews and inspections were not created by the same
 entity we needed to merge them, in order to do so, two attributes were used: the
 restaurant name and the address (franchise restaurants can have the same name
@@ -66,13 +66,13 @@ but not the same address). The criteria used to match two restaurants was:<br />
 AND<br />
 (addresses are within the range of 100 meters)<br />
 <br />
-2. Feature extraction<br />
+<b>2. Feature extraction</b><br />
 Reviews were processed in order to find features (words) with high correlation
 to the task at hand (health issues). The top 60 words were extracted and used to
 generate boolean features along with statistical features such as variance,
 average number of reviews, etc.<br />
 <br />
-3. Supervised Learning<br />
+<b>3. Supervised Learning</b><br />
 The health risk prediction problem is an example of multi-label prediction,
 using the features extracted from the reviews and the health notes (A-D) from
 the inspections a supervised learning model was trained. We used tree based
@@ -80,12 +80,18 @@ algorithms, namely Random Forest and Gradient Boosting. From test results,
 Gradient Boosting was selected as the best performer with cross-validated
 mean accuracy of 77.4%.<br />
 <br />
-4. Applying the prediction model<br />
+<b>4. Applying the prediction model</b><br />
 Once the prediction model was trained, we applied it into the unlabeled data. In
 other words, the model predicted the health notes for those reviewed restaurants
 for which an inspection had not been performed.<br />
 </p>
 
 ![Model](/img/post_psif2016/predictions.png)
+The image above shows the model in action.
 
 ![High Risk](/img/post_psif2016/note-d.png)
+This map shows the locations of inspected restaurants with the lowest notes (D),
+blue dots correspond to inspected restaurants while orange dots correspond to
+the model predictions. The model was able to predict 3 times the number of
+potential high risk restaurants based on the user reviews. This way the Ministry
+of Agriculture can efficiently define where to allocate resources and what restaurants/regions should have higher priority.
