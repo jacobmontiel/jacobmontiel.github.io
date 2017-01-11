@@ -3,16 +3,16 @@ layout: post
 section-type: post
 title: Paris Summer Innovation Fellowship
 category: tech, data science
-tags: [ 'activities', 'data science'  ]
+tags: [ 'activities', 'data science' ]
 ---
 
 <p style='text-align: justify;'>
 I participated in the 2016 <a href="http://www.summerfellows.paris/"
-target="_blank">Paris Summer Innovation Fellowship</a> in the following project
+target="_blank"_>Paris Summer Innovation Fellowship</a> in the following project
 of the Data Science track.
 </p>
 
-### Optimizing restaurant health inspections through advanced analytics
+## Optimizing restaurant health inspections through advanced analytics
 
 <p style='text-align: justify;'>
 The Ministry of Agriculture, Agri-food, and Forestry of France (Ministère de
@@ -37,17 +37,51 @@ D: Major issues were previously found and were not corrected [Worst]<br />
 Given this scenario, one way to optimize the use of resources for the restaurant
 health inspections is by focusing on those restaurants with higher risk.
 Since the number of inspectors is limited, it was proposed to make use of
-information available in platforms like TripAdvisor, where user perform
-'informal' reviews of restaurants, the assumption is that user reviews
-potentially contain hints of health issues. TripAdvisor contains reviews for 8x
-the number of restaurants inspected in 2015 in the Paris Region. In the
-following image, blue dots correspond to inspected restaurants (Ministry of
-Agriculture) and orange dots correspond to reviewed restaurants (TripAdvisor).
+information available in platforms like TripAdvisor, where users write
+'informal' reviews of restaurants. The assumption is that user informal reviews
+potentially contain hints of health issues. Given the popularity of services as
+TripAdvisor, the number of reviewed restaurants is considerably larger than the
+number of inspected restaurants. TripAdvisor contains reviews for 8x
+the number of restaurants inspected in 2015 in the Paris Region.
 </p>
 
 ![Inspections and Reviews](/img/post_psif2016/inspections-reviews.png)
+<p style='text-align: justify;'>
+In the image above, blue dots correspond to inspected restaurants (Ministry of
+Agriculture) and orange dots correspond to reviewed restaurants (TripAdvisor).
+</p>
 
+### Predicting health risks from restaurant reviews
 <img style="border:none" src="/img/post_psif2016/steps.png" width="80%" />
+The project is compossed by four major stages:
+
+1. Restaurants matching
+Since the data sets of reviews and inspections were not created by the same
+entity we needed to merge them, in order to do so, two attributes were used: the
+restaurant name and the address (franchise restaurants can have the same name
+but not the same address). The criteria used to match two restaurants was:
+(fuzzy matching of the restaurant name is above 90)
+AND
+(addresses are within the range of 100 meters)
+
+2. Feature extraction
+Reviews were processed in order to find features (words) with high correlation
+to the task at hand (health issues). The top 60 words were extracted and used to
+generate boolean features along with statistical features such as variance,
+average number of reviews, etc.
+
+3. Supervised Learning
+The health risk prediction problem is an example of multi-label prediction,
+using the features extracted from the reviews and the health notes (A-D) from
+the inspections a supervised learning model was trained. We used tree based
+algorithms, namely Random Forest and Gradient Boosting. From test results,
+Gradient Boosting was selected as the best performer with cross-validated
+mean accuracy of 77.4%.
+
+4. Applying the prediction model
+Once the prediction model was trained, we applied it into the unlabeled data. In
+other words, the model predicted the health notes for those reviewed restaurants
+for which an inspection had not been performed.
 
 ![Model](/img/post_psif2016/predictions.png)
 
