@@ -47,7 +47,7 @@ the number of restaurants inspected in 2015 in the Paris Region.
 
 ![Inspections and Reviews](/img/post_psif2016/inspections-reviews.png)
 <p style='text-align: justify;'>
-In the image above, blue dots correspond to inspected restaurants (Ministry of
+In the map, blue dots correspond to inspected restaurants (Ministry of
 Agriculture) and orange dots correspond to reviewed restaurants (TripAdvisor).
 </p>
 
@@ -87,7 +87,8 @@ for which an inspection had not been performed.<br />
 </p>
 
 ![Model](/img/post_psif2016/predictions.png)
-The image above shows the model in action.
+Model in action. The map shows the locations of the restaurants with reviews
+from TripAdvisor, colors correspond to the predicted health note (A-D).
 
 ![High Risk](/img/post_psif2016/note-d.png)
 This map shows the locations of inspected restaurants with the lowest notes (D),
