@@ -36,9 +36,9 @@ D: Major issues were previously found and were not corrected [Worst]<br />
 <p style='text-align: justify;'>
 Given this scenario, one way to optimize the use of resources for the restaurant
 health inspections is by focusing on those restaurants with higher risk.
-Since the number of inspectors is limited, it was proposed to make use of
-information available in platforms like TripAdvisor, where users write
-'informal' reviews of restaurants. The assumption is that user informal reviews
+Since the number of inspectors is limited, a crowdsourcing solution was proposed
+using information available in platforms like TripAdvisor, where clients write
+'informal' reviews of restaurants. The assumption is that informal reviews
 potentially contain hints of health issues. Given the popularity of services as
 TripAdvisor, the number of reviewed restaurants is considerably larger than the
 number of inspected restaurants. TripAdvisor contains reviews for 8x
