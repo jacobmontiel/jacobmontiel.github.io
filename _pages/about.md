@@ -31,8 +31,7 @@ My research interests are in the field of Machine Learning with application on B
 <div class="container row">
     {% assign events = site.events | sort: 'date' %}
     {% for event in site.events reversed %}
-    <div class="item">
-        <i class="vertical-line"></i>
+    <div class="clearfix float-my-children">
         {% assign date = event.date | date: '%Y/%m' %}
         {% assign enddate = event.enddate | date: '%Y/%m' %}
         <big class="item-date">{{ event.date | date: '%Y/%m' }}
@@ -41,13 +40,13 @@ My research interests are in the field of Machine Learning with application on B
             {% endif %}
         {% else %} - 
         {% endif %}</big>
-        <div class="card-panel">
+        <div>
             <span>
                 <img style="float:left" class="img-circle" src="{{site.baseurl}}{{ event.image }}" width="80" height="80"  hspace="20">
                 {{ event.content }}
-                <br>
             </span>
         </div>
+        <br>
     </div>
     {% endfor %}
     <div class="last-item">
