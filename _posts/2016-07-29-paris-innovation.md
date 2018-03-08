@@ -9,7 +9,7 @@ category: ['tech', 'data science' ]
 tags: [ 'activities', 'data science' ]
 ---
 
-I participated in the [2016 Paris Summer Innovation Fellowship](http://www.summerfellows.paris/) in the following project of the Data Science track.
+I participated in the [2016 Paris Summer Innovation Fellowship](http://www.summerfellows.paris/) on the Data Science track with the project:
 ## Optimizing restaurant health inspections through advanced analytics
 
 The Ministry of Agriculture, Agri-food, and Forestry of France (Ministère de l'Agriculture, de l'Agroalimentaire et de la Forêt) regularly inspects businesses serving food to ensure restaurants and other food retail outlets are following safe food handling procedures. Such task is bounded by time and human resources, in other words, there is not enough time to inspect all restaurants in one year and there are not enough inspectors to speed up the process.
