@@ -7,7 +7,7 @@ category: ['research']
 tags: [ 'research', 'machine learning', 'predictive models', 'banking', 'feature selection', 'supervised learning', 'bigdata', 'stream learning'  ]
 ---
 
-I attended the 2017 IEEE International Conference on Big Data([Big Data 2017](http://cci.drexel.edu/bigdata/bigdata2017/index.html)) in Boston, Massachusetts, to present  our paper
+I attended the [2017 IEEE International Conference on Big Data](http://cci.drexel.edu/bigdata/bigdata2017/index.html)) in Boston, Massachusetts, to present  our paper
 
 **[Predicting over-indebtedness on batch and streaming data](http://ieeexplore.ieee.org/document/8258084/)**.
 
