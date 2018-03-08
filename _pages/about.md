@@ -46,8 +46,8 @@ My research interests are in the field of Machine Learning with application on B
                 {{ event.content }}
             </span>
         </div>
-        <br>
     </div>
+    <br>
     {% endfor %}
     <div class="last-item">
         <i class="vertical-line"></i>
