@@ -9,6 +9,8 @@ author_profile: True
 
 I am a Ph.D. student at [Télécom ParisTech](http://www.telecom-paristech.fr/eng){:target='_blank'} - [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en){:target='_blank'} in the [Data, Intelligence and Graphs Team](https://dig.telecom-paristech.fr/blog/){:target='_blank'}, under the supervision of [Talel Abdessalem](https://sites.google.com/view/talel-abdessalem){:target='_blank'} and [Albert Bifet](http://albertbifet.com/){:target='_blank'}.
 
+I am the maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.
+
 ## Academia
 
 Bachelor's Degree from _Puebla Institute of Technology_ (Mexico). Research Intern at the _Centre for Intelligent Machines_ in _McGill University_ (Canada). Research Assistant at the _National Institute of Astrophysics, Optics and Electronics_ (Mexico). Master’s Degree in Computer Science from the _Tokyo Institute of Technology_ (Japan), as fellow of the _Monbukagakusho Scholarship_ (Embassy Recommendation) from the Japanese Ministry of Education, Culture, Sports, Science and Technology. Research Assistant at the _Global Edge Institute_ (Japan). Lecturer at the _University of Queretaro_ (Mexico) in the Computer Science Department for the master courses 'Pattern Recognition', 'Analysis of Algorithms', and 'Advanced Data Structures'.

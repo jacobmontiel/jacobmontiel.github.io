@@ -14,4 +14,4 @@ excerpt: ""
 
 I am a Ph.D. student at [Télécom ParisTech](http://www.telecom-paristech.fr/eng){:target='_blank'} - [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en){:target='_blank'} in the [Data, Intelligence and Graphs Team](https://dig.telecom-paristech.fr/blog/){:target='_blank'}{:target='_blank'}, under the supervision of [Talel Abdessalem](https://sites.google.com/view/talel-abdessalem){:target='_blank'} and [Albert Bifet](http://albertbifet.com/){:target='_blank'}.
 
-I am the maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/).
+I am the maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.
