@@ -1,233 +1,270 @@
-
-# Site settings
-
-# NB! Set your site's url, otherwise stuff will break :)
-
-url: "https://jacobmontiel.github.io/jacobmontiel.github.io"
-# "https://panossakkos.github.io"
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# Welcome to Jekyll!
 #
-# NB! Without this *nothing* will work, because it's used in every path :)
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-baseurl: /jacobmontiel.github.io
-  #/personal-jekyll-theme
+remote_theme: "mmistakes/minimal-mistakes"
 
-# Google tracking id
+plugins:
+  - jekyll-remote-theme
 
-google-tracking-id: ""
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
+# Site Settings
+locale                   : "en"
+title                    : "Jacob Montiel"
+title_separator          : "-"
+name                     : &name Jacob Montiel"
+description              : "Personal website."
+url                      : "https://jacobmontiel.github.io/"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "jacobmontiel"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
 
-force-https: True
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
-#############
-# HTML Head #
-#############
-
-lang: "en"
-author: "Jacob Montiel"
-title: "Jacob Montiel"
-description: "Website of Jacob Montiel. Opinions expressed are mine."
-keywords: ""
-favicon: ""
-
-################
-# Header layout #
-################
-
-#black-favicon: ""
-
-background-img: "/img/intro.jpg"
-
-##############################
-# Dynamic Text on the Header #
-##############################
-
-dynamic-typing: False
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-  - text: "To live is the rarest thing in the world. Most people exist,
-   that is all. - Oscar Wilde"
-  - text: "Science is the Belief in the Ignorance of Experts - Richard Feynman"
-  - text: "If I have seen a little further it is by standing on the shoulders of
-   Giants"
-
-me-img: "/img/me.jpg"
-
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: False
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
-
-########
-# Blog #
-########
-
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: False
-linkedin-share: False
-
-disqus-shortname: "jacobmontiel"
-
-syntax-highlight: True
-
-############
-# Timeline #
-############
-
-events:
-  - image: "/img/timeline/psif.png"
-    date: "July 2016"
-    description: "Data Science Fellow @ [Paris Summer Innovation Fellowship](http://www.summerfellows.paris/){:target='_blank'},
-    Optimizing restaurant health inspections through advanced analytics"
-  - image: "/img/timeline/telecom.png"
-    date: "Octobre 2015 - Today"
-    description: "PhD Student @ Télécom ParisTech (Université Paris-Saclay)"
-  - image: "/img/timeline/conacyt.png"
-    date: "Octobre 2015 - Today"
-    description: "PhD Scholarship Fellow, Mexican National Council
-    of Science and Technology
-    ([CONACYT](http://www.conacyt.gob.mx/){:target='_blank'})"
-  - image: "/img/timeline/ge.png"
-    date: "August 2014-Octobre 2015"
-    description: "Project Engineer Leader (Tech Lead)
-    @ GE Aviation
-    @ [Vehicle Health and Data Management](http://www.geaviation.com/commercial/systems/avionics/){:target='_blank'}"
-  - image: "/img/timeline/ge.png"
-    date: "July 2012-July 2014"
-    description: "Lead Engineer @ GE Aviation
-     @ [Vehicle Health and Data Management](http://www.geaviation.com/commercial/systems/avionics/){:target='_blank'}"
-  - image: "/img/timeline/ge.png"
-    date: "September 2010-June 2012"
-    description: "SW Engineer @ GE Aviation
-    @ [Prognostics and Health Management](http://www.geaviation.com/bga/services/prognostic-health-management-plus/){:target='_blank'}"
-  - image: "/img/timeline/titech.png"
-    date: "March 2010"
-    description: "Master's degree @ Tokyo Institute of Technology,
-    on Computer Science"
-  - image: "/img/timeline/titech.png"
-    date: "April 2009- March 2010"
-    description: "Research Assistant @ Global Edge Institute
-    @ Tokyo Institute of Technology"
-  - image: "/img/timeline/MEXT.png"
-    date: "April 2007- March 2010"
-    description: "Monbukagakusho Scholarship Fellow - Embassy recommendation"
-  - image: "/img/timeline/inaoe.png"
-    date: "June 2005- April 2007"
-    description: "Research Assistant @
-    National Institute of Astrophysics, Optics and Electronics,
-     on Digital Image Processing"
-  - image: "/img/timeline/itp.png"
-    date: "April 2015"
-    description: "Bachelor degree @
-    Puebla Institute of Technology, on Electrical Engineering"
-  - image: "/img/timeline/mcgill.gif"
-    date: "September 2004 - January 2005"
-    description: "Research Intern @ McGill University
-    @ Centre for Intelligent Machines, on Digital Image Processing"
-
-# First image of the Timeline
-
-timeline-img: "/img/timeline/start.png"
-
-###########
-# Contact #
-###########
-email: "jacob.montiel(at)telecom-paristech.fr"
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "I am a PhD student at Télécom ParisTech (Université Paris-Saclay)."
-author_blurb_image: "/img/me.jpg"
-
-##################
-# Social Buttons #
-##################
-
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  - title: "linkedin"
-    url: "https://fr.linkedin.com/in/jacobmontiel"
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-############
-# 404 page #
-############
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
 
-404-img: "/img/labtocat.png"
 
-##################
-# GPG on Keybase #
-##################
+# Site Author
+author:
+  name             : *name
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : I am a PhD student at Télécom ParisTech (Université Paris-Saclay).
+  location         : "Paris, FRANCE"
+  email            :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "jacobmontiel"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        : "jacobmex"
+  lastfm           :
+  linkedin         : "jacobmontiel"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
-# keybase-username: johnsmith
-# keybase-in-social: True
-# keybase-in-footer: True
 
-################################################################################
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _events
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# NB! Tread carefully if you want to change the variables below this point!
 
-# Sections shown in the index page
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-pages_list:
-  About: 'about'
-  Activities: 'latest-post'
-  Timeline: 'timeline'
-  Hobbies: 'hobbies'
-  Contact: 'contact'
 
-# Exclusion list from the generated _site
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..4
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
-# Pagination path
-
-paginate_path: "blog/page:num/"
-
-# Enable minification SASS
-
+# Sass/SCSS
 sass:
-  style: compressed
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-gems:
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: # true
+      related: # true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
