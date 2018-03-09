@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /news-by-year/
+permalink: news-by-year
 title: "News"
 author_profile: true
 ---

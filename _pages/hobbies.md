@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Hobbies"
-permalink: /hobbies/
+permalink: hobbies
 excerpt: "My hobbies."
 toc: false
 author_profile: True

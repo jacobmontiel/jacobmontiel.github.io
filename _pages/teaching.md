@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Teaching"
-permalink: /teaching/
+permalink: teaching
 excerpt: "Teaching activities."
 toc: false
 author_profile: True

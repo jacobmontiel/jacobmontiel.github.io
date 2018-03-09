@@ -1,9 +1,9 @@
 main:
   - title: "About"
-    url: /about/
+    url: /about
   - title: "News"
-    url: /news-by-year/
+    url: /news-by-year
   - title: "Teaching"
-    url: /teaching/
+    url: /teaching
   - title: "Hobbies"
-    url: /hobbies/
+    url: /hobbies
