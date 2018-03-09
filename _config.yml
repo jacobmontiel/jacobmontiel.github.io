@@ -18,7 +18,7 @@ title                    : "Jacob Montiel"
 title_separator          : "-"
 name                     : &name Jacob Montiel
 description              : "Personal website."
-url                      : "https://jacobmontiel.github.io/"
+url                      : "https://jacobmontiel.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jacobmontiel"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
