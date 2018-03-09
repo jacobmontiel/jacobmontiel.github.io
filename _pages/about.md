@@ -28,28 +28,31 @@ Bachelor's Degree from _Puebla Institute of Technology_ (Mexico). Research Inter
 
 ## Timeline
 
-<div class="container row">
+<style type="text/css">
+  .timeline-logo   { float:left;
+             vertical-align: middle;
+             margin-right: 10px; }
+
+  .timeline-text { vertical-align: middle;
+            display: table-cell; }
+</style>
+
+<div>
     {% assign events = site.events | sort: 'date' %}
     {% for event in site.events reversed %}
-    <div class="clearfix float-my-children">
-        {% assign date = event.date | date: '%Y/%m' %}
-        {% assign enddate = event.enddate | date: '%Y/%m' %}
-        <big class="item-date">{{ event.date | date: '%Y/%m' }}
-        {% if event.enddate != blank %}
-            {% if date < enddate %} - {{ event.enddate | date: '%Y/%m' }}
-            {% endif %}
-        {% else %} - 
-        {% endif %}</big>
-        <div>
-            <span>
-                <img style="float:left" class="img-circle" src="{{site.baseurl}}{{ event.image }}" width="80" height="80"  hspace="20">
-                <small>{{ event.content }}</small>
-            </span>
-        </div>
+    {% assign date = event.date | date: '%Y/%m' %}
+    {% assign enddate = event.enddate | date: '%Y/%m' %}
+    <big>{{ event.date | date: '%Y/%m' }}
+    {% if event.enddate != blank %}
+        {% if date < enddate %} - {{ event.enddate | date: '%Y/%m' }}
+        {% endif %}
+    {% else %} - 
+    {% endif %}
+    </big>
+    <div>
+        <img class="timeline-logo" src="{{site.baseurl}}{{ event.image }}" width="80" height="80">
+        <span class="timleline-text"><small>{{ event.content }}</small></span>
     </div>
-    <br>
+    <br><br>
     {% endfor %}
-    <div class="last-item">
-        <i class="vertical-line"></i>
-    </div>
 </div>
