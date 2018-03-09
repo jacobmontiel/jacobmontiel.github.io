@@ -43,7 +43,7 @@ Bachelor's Degree from _Puebla Institute of Technology_ (Mexico). Research Inter
         <div>
             <span>
                 <img style="float:left" class="img-circle" src="{{site.baseurl}}{{ event.image }}" width="80" height="80"  hspace="20">
-                {{ event.content }}
+                <small>{{ event.content }}</small>
             </span>
         </div>
     </div>
