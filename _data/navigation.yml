@@ -3,9 +3,9 @@ main:
     url: /about
   - title: "News"
     url: /news-by-year
-  - title: "Publications"
-    url: /publications
   - title: "Teaching"
     url: /teaching
+  - title: "Publications"
+    url: /publications
   - title: "Hobbies"
     url: /hobbies

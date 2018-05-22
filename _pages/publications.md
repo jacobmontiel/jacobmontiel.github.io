@@ -8,13 +8,13 @@ toc: false
 author_profile: True
 ---
 
-* J. Montiel et al. “Scikit-Multiflow: A Multi-output Streaming Framework”. In: Journal of Machine Learning Research (2018). [Submitted]
+* Jacob Montiel, Jesse Read, Albert Bifet and Talel Abdessalem: “Scikit-Multiflow: A Multi-output Streaming Framework”. In: Journal of Machine Learning Research (2018). [Submitted]
 
-* J. Montiel et al. “Scalable Model-based Cascaded Imputation of Missing Data”. In: Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD). 2018. [To appear]
+* Jacob Montiel, Jesse Read, Albert Bifet and Talel Abdessalem: “Scalable Model-based Cascaded Imputation of Missing Data”. In: Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD). 2018. [To appear]
 
-* J. Montiel, A. Bifet and T. Abdessalem, "[Predicting over-indebtedness on batch and streaming data](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8258084&isnumber=8257893)" 2017 IEEE International Conference on Big Data (Big Data), Boston, MA, 2017, pp. 1504-1513.
+* Jacob Montiel, Albert Bifet and Talel Abdessalem: ["Predicting over-indebtedness on batch and streaming data"](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8258084&isnumber=8257893) In: IEEE International Conference on Big Data (Big Data), Boston, MA, 2017, pp. 1504-1513.
 
-* J. Montiel, H. Laga and M. Nakajima. “Prototype-based Intraclass Pose Recognition of Partial 3D Scans”. In: NICOGRAPH International. 2009
+* Jacob Montiel, Hamid Laga and Masayuki Nakajima: “Prototype-based Intraclass Pose Recognition of Partial 3D Scans”. In: NICOGRAPH International. 2009
 
 ___
 
