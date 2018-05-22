@@ -1,7 +1,8 @@
 ---
 layout: archive
-permalink: news-by-year
 title: "News"
+permalink: news-by-year
+classes: wide
 author_profile: true
 ---
 
