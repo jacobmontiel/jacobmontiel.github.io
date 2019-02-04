@@ -10,7 +10,7 @@ author_profile: True
 
 * Montiel, Jacob, Bifet Albert, Losing Viktor, Read Jesse, and Abdessalem Talel. ["Learning Fast and Slow: A Unified Batch/Stream Framework."](https://ieeexplore.ieee.org/document/8622222) In 2018 IEEE International Conference on Big Data (Big Data), pp. 1065-1072. IEEE, 2018. [[slides](https://docs.google.com/presentation/d/e/2PACX-1vRmed55HgjouHnZqvdBBj38L6VH2iKs2Lo9n95w24Cqz2iNFvtCCVyOD087cval2SgSg0red1sa46_Z/pub?start=false&loop=true&delayms=3000)]
 
-* Montiel Jacob, Read Jesse, Bifet Albert and Abdessalem Talel: ["Scikit-Multiflow: A Multi-output Streaming Framework."](http://jmlr.org/papers/v19/18-251.html) The Journal of Machine Learning Research 19, no. 1 (2018): 2915-2914.
+* Montiel Jacob, Read Jesse, Bifet Albert and Abdessalem Talel: ["Scikit-Multiflow: A Multi-output Streaming Framework."](http://jmlr.org/papers/v19/18-251.html) The Journal of Machine Learning Research, vol. 19, no. 72, 2018.
 
 * Montiel Jacob, Jesse Read, Albert Bifet, and Talel Abdessalem. ["Scalable Model-Based Cascaded Imputation of Missing Data."](https://link.springer.com/chapter/10.1007/978-3-319-93040-4_6) In *2017 Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)*, pp. 64-76. Springer, Cham, 2018. [[slides](https://docs.google.com/presentation/d/e/2PACX-1vRCuCXUydGonYbpDJzxm7zk22Ds8zzL6HDbuOEUaCGACiQLE60SZEFauZ3jrctbuR0zOM3jept-3FWG/pub?start=false&loop=true&delayms=3000)]
 
