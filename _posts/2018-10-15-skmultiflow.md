@@ -4,7 +4,7 @@ title: scikit-multiflow has been accepted at JMLR MLOSS!
 toc: False
 author_profile: True
 category: ['research']
-tags: [ 'research', 'machine learning']
+tags: [ 'research', 'machine learning', 'open source software']
 ---
 
 Our paper describing [scikit-multiflow](https://scikit-multiflow.github.io/) has been accepted for publication at the *Journal of Machine Learning Research - Machine Learning Open Source Software* ([JMLR MLOSS](http://www.jmlr.org/mloss/)).

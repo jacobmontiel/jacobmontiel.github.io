@@ -4,7 +4,7 @@ title: scikit-multiflow preprint is available!
 toc: False
 author_profile: True
 category: ['research']
-tags: [ 'research', 'machine learning']
+tags: [ 'research', 'machine learning',  'open source software']
 ---
 
 The preprint version of our paper describing [scikit-multiflow](https://scikit-multiflow.github.io/) is available on [arXiv](https://arxiv.org/abs/1807.04662)
