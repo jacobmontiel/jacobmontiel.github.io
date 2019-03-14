@@ -104,7 +104,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : I am a PhD student at Télécom ParisTech (Université Paris-Saclay).
+  bio              : I am a postdoc at Télécom ParisTech (Université Paris-Saclay).
   location         : "Paris, FRANCE"
   email            :
   uri              :
