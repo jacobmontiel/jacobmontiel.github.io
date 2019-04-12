@@ -8,13 +8,14 @@
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:

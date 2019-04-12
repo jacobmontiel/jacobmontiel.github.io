@@ -7,4 +7,5 @@ gem "minimal-mistakes-jekyll"
 group :jekyll_plugins do
     gem "jekyll-include-cache"
     gem "jekyll-remote-theme"
+    gem "jekyll-archives"
 end
