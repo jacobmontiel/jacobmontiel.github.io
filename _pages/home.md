@@ -12,6 +12,8 @@ header:
 excerpt: ""
 ---
 
-I am a postdoc at [Télécom ParisTech](http://www.telecom-paristech.fr/eng){:target='_blank'} - [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en){:target='_blank'} in the [Data, Intelligence and Graphs Team](https://dig.telecom-paristech.fr/blog/){:target='_blank'}{:target='_blank'}.
+Welcome to my webpage.
 
-I am the maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.
+I am a postdoctoral researcher at [Télécom ParisTech](http://www.telecom-paristech.fr/eng){:target='_blank'} - [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en){:target='_blank'} in the [Data, Intelligence and Graphs](https://dig.telecom-paristech.fr/blog/){:target='_blank'}{:target='_blank'} (DIG) team.
+
+I am the lead programmer and maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.
