@@ -11,13 +11,7 @@ I am a postdoctoral researcher at [Télécom ParisTech](http://www.telecom-paris
 
 I am the lead programmer and maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.
 
-## Research
-
-My research interests are in the field of Machine Learning, including but not limited to:
-
-- Learning from evolving data streams
-- Data Imbalance
-- Missing data imputation
+Further information about my [professional activities](activities.md).
 
 Highlights from my time in academia and industry:
 

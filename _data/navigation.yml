@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /about
+  - title: "Activities"
+    url: /activities
   - title: "News"
     url: /news-by-year
   - title: "Teaching"
