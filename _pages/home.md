@@ -14,6 +14,6 @@ excerpt: ""
 
 Welcome to my webpage.
 
-I am a postdoctoral researcher at [Télécom ParisTech](http://www.telecom-paristech.fr/eng){:target='_blank'} - [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en){:target='_blank'} in the [Data, Intelligence and Graphs](https://dig.telecom-paristech.fr/blog/){:target='_blank'}{:target='_blank'} (DIG) team.
+I am a Postdoctoral Research Fellow at the [University of Waikato](https://www.waikato.ac.nz/){:target='_blank'} in the [Machine Learning Group](https://www.cs.waikato.ac.nz/~ml/){:target='_blank'}.
 
 I am the lead programmer and maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.

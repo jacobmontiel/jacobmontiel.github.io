@@ -7,7 +7,7 @@ toc: True
 author_profile: True
 ---
 
-I am a postdoctoral researcher at [Télécom ParisTech](http://www.telecom-paristech.fr/eng){:target='_blank'} - [Université Paris-Saclay](https://www.universite-paris-saclay.fr/en){:target='_blank'} in the [Data, Intelligence and Graphs](https://dig.telecom-paristech.fr/blog/){:target='_blank'} (DIG) team.
+I am a Postdoctoral Research Fellow at the [University of Waikato](https://www.waikato.ac.nz/){:target='_blank'} in the [Machine Learning Group](https://www.cs.waikato.ac.nz/~ml/){:target='_blank'}.
 
 I am the lead programmer and maintainer of [scikit-multiflow](https://scikit-multiflow.github.io/){:target='_blank'}.
 
@@ -17,7 +17,7 @@ Highlights from my time in academia and industry:
 
 ## Academia
 
-Bachelor's Degree from _Puebla Institute of Technology_ (Mexico). Research Intern at the _Centre for Intelligent Machines_ in _McGill University_ (Canada). Research Assistant at the _National Institute of Astrophysics, Optics and Electronics_ (Mexico). Master’s Degree in Computer Science from the _Tokyo Institute of Technology_ (Japan), as fellow of the _Monbukagakusho Scholarship_ (Embassy Recommendation) from the Japanese Ministry of Education, Culture, Sports, Science and Technology. Research Assistant at the _Global Edge Institute_ (Japan). Lecturer at the _University of Queretaro_ (Mexico) in the Computer Science Department. PhD degree in Computer Science from the Université Paris-Saclay -- Télécom-ParisTech (France).
+PhD degree in Computer Science from the _Université Paris-Saclay -- Télécom-ParisTech_ (France). Lecturer at the _University of Queretaro_ (Mexico) in the Computer Science Department. Master’s Degree in Computer Science from the _Tokyo Institute of Technology_ (Japan), as fellow of the _Monbukagakusho Scholarship_ (Embassy Recommendation) from the Japanese Ministry of Education, Culture, Sports, Science and Technology. Research Assistant at the _Global Edge Institute_ (Japan). Research Intern at the _Centre for Intelligent Machines_ in _McGill University_ (Canada). Research Assistant at the _National Institute of Astrophysics, Optics and Electronics_ (Mexico).  Bachelor's Degree from _Puebla Institute of Technology_ (Mexico).
 
 ## Industry
 

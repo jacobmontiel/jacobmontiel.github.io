@@ -86,8 +86,8 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : I am a postdoc at Télécom ParisTech and the lead programmer of scikit-multiflow.
-  location         : "Paris, FRANCE"
+  bio              : I am a postdoc at the University of Waikato and the lead programmer of scikit-multiflow.
+  location         : "Hamilton, NEW ZEALAND"
   email            :
   uri              :
   bitbucket        :
