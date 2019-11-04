@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/categories/</link>
+      <atom:link href="https://jacobmontiel.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>Categories</title>
+      <link>https://jacobmontiel.github.io/categories/</link>
+    </image>
+    
+    <item>
+      <title>research</title>
+      <link>https://jacobmontiel.github.io/categories/research/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data streams</title>
+      <link>https://jacobmontiel.github.io/categories/data-streams/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/categories/data-streams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foss</title>
+      <link>https://jacobmontiel.github.io/categories/foss/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/categories/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://jacobmontiel.github.io/categories/machine-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>https://jacobmontiel.github.io/categories/data-science/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://jacobmontiel.github.io/categories/tech/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

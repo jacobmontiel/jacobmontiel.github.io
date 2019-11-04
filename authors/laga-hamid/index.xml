@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laga Hamid | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/authors/laga-hamid/</link>
+      <atom:link href="https://jacobmontiel.github.io/authors/laga-hamid/index.xml" rel="self" type="application/rss+xml" />
+    <description>Laga Hamid</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Fri, 19 Jun 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>Laga Hamid</title>
+      <link>https://jacobmontiel.github.io/authors/laga-hamid/</link>
+    </image>
+    
+    <item>
+      <title>Prototype-based Intraclass Pose Recognition of Partial 3D Scans</title>
+      <link>https://jacobmontiel.github.io/publication/2009-nicograph/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/publication/2009-nicograph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

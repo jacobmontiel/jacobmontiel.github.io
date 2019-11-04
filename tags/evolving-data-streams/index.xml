@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>evolving data streams | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/tags/evolving-data-streams/</link>
+      <atom:link href="https://jacobmontiel.github.io/tags/evolving-data-streams/index.xml" rel="self" type="application/rss+xml" />
+    <description>evolving data streams</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>evolving data streams</title>
+      <link>https://jacobmontiel.github.io/tags/evolving-data-streams/</link>
+    </image>
+    
+    <item>
+      <title>Research fellow at the University of Waikato</title>
+      <link>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</guid>
+      <description>&lt;p&gt;I have started a new potion as Research Fellow in the &lt;a href=&#34;https://www.cs.waikato.ac.nz/~ml/index.html&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt; at the University of Waikato in New Zealand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Postdoc at Télécom ParisTech</title>
+      <link>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</guid>
+      <description>&lt;p&gt;I have started a new potion as Postdoc at the &lt;a href=&#34;https://dig.telecom-paristech.fr/blog/&#34; target=&#34;_blank&#34;&gt;Data, Intelligence and Graphs&lt;/a&gt; (DIG) group at Télécom ParisTech.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I got my PhD</title>
+      <link>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</guid>
+      <description>&lt;p&gt;I have successfully defended my PhD thesis &amp;ldquo;Fast and Slow Machine Learning&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Jury:&lt;br /&gt;
+M João Gama, &lt;em&gt;University of Porto&lt;/em&gt;&lt;br /&gt;
+M Georges Hébrail, &lt;em&gt;Électricité de France&lt;/em&gt;&lt;br /&gt;
+M Themis Palpanas, &lt;em&gt;Université Paris Descartes&lt;/em&gt;&lt;br /&gt;
+M Ricard Gavaldà, &lt;em&gt;Universitat Politècnica de Catalunya&lt;/em&gt;&lt;br /&gt;
+M Jesse Read, &lt;em&gt;École Polytechnique&lt;/em&gt;&lt;br /&gt;
+M Albert Bifet, &lt;em&gt;Télécom ParisTech (Directeur de recherche)&lt;/em&gt;&lt;br /&gt;
+M Talel Abdessalem, &lt;em&gt;Télécom ParisTech (Directeur de thèse)&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IEEE BigData 2018</title>
+      <link>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://cci.drexel.edu/bigdata/bigdata2018/&#34; target=&#34;_blank&#34;&gt;2018 IEEE International Conference on Big Data&lt;/a&gt; in Settle, USA, to present  our paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/8622222&#34; target=&#34;_blank&#34;&gt;Learning Fast and Slow: A Unified Batch/Stream Framework.&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Data ubiquity highlights the need of efficient and adaptable data-driven solutions. In this paper, we present FAST AND SLOW LEARNING (FSL), a novel unified framework that sheds light on the symbiosis between batch and stream learning. FSL works by employing Fast (stream) and Slow (batch) Learners, emulating the mechanisms used by humans to make decisions. We showcase the applicability of FSL on the task of classification by introducing the FAST AND SLOW CLASSIFIER (FSC). A Fast Learner provides predictions on the spot, continuously updating its model and adapting to changes in the data. On the other hand, the Slow Learner provides predictions considering a wider spectrum of seen data, requiring more time and data to create complex models. Once that enough data has been collected, FSC trains the Slow Learner and starts tracking the performance of both learners. A drift detection mechanism triggers the creation of new Slow models when the current Slow model becomes obsolete. FSC selects between Fast and Slow Learners according to their performance on new incoming data. Test results on real and synthetic data show that FSC effectively drives the positive interaction of stream and batch models for learning from evolving data streams.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/categories/research/</link>
+      <atom:link href="https://jacobmontiel.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>research</title>
+      <link>https://jacobmontiel.github.io/categories/research/</link>
+    </image>
+    
+    <item>
+      <title>Research fellow at the University of Waikato</title>
+      <link>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</guid>
+      <description>&lt;p&gt;I have started a new potion as Research Fellow in the &lt;a href=&#34;https://www.cs.waikato.ac.nz/~ml/index.html&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt; at the University of Waikato in New Zealand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Postdoc at Télécom ParisTech</title>
+      <link>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</guid>
+      <description>&lt;p&gt;I have started a new potion as Postdoc at the &lt;a href=&#34;https://dig.telecom-paristech.fr/blog/&#34; target=&#34;_blank&#34;&gt;Data, Intelligence and Graphs&lt;/a&gt; (DIG) group at Télécom ParisTech.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I got my PhD</title>
+      <link>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</guid>
+      <description>&lt;p&gt;I have successfully defended my PhD thesis &amp;ldquo;Fast and Slow Machine Learning&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Jury:&lt;br /&gt;
+M João Gama, &lt;em&gt;University of Porto&lt;/em&gt;&lt;br /&gt;
+M Georges Hébrail, &lt;em&gt;Électricité de France&lt;/em&gt;&lt;br /&gt;
+M Themis Palpanas, &lt;em&gt;Université Paris Descartes&lt;/em&gt;&lt;br /&gt;
+M Ricard Gavaldà, &lt;em&gt;Universitat Politècnica de Catalunya&lt;/em&gt;&lt;br /&gt;
+M Jesse Read, &lt;em&gt;École Polytechnique&lt;/em&gt;&lt;br /&gt;
+M Albert Bifet, &lt;em&gt;Télécom ParisTech (Directeur de recherche)&lt;/em&gt;&lt;br /&gt;
+M Talel Abdessalem, &lt;em&gt;Télécom ParisTech (Directeur de thèse)&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scikit-multiflow</title>
+      <link>https://jacobmontiel.github.io/project/scikit-multiflow/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/project/scikit-multiflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE BigData 2018</title>
+      <link>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://cci.drexel.edu/bigdata/bigdata2018/&#34; target=&#34;_blank&#34;&gt;2018 IEEE International Conference on Big Data&lt;/a&gt; in Settle, USA, to present  our paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/8622222&#34; target=&#34;_blank&#34;&gt;Learning Fast and Slow: A Unified Batch/Stream Framework.&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Data ubiquity highlights the need of efficient and adaptable data-driven solutions. In this paper, we present FAST AND SLOW LEARNING (FSL), a novel unified framework that sheds light on the symbiosis between batch and stream learning. FSL works by employing Fast (stream) and Slow (batch) Learners, emulating the mechanisms used by humans to make decisions. We showcase the applicability of FSL on the task of classification by introducing the FAST AND SLOW CLASSIFIER (FSC). A Fast Learner provides predictions on the spot, continuously updating its model and adapting to changes in the data. On the other hand, the Slow Learner provides predictions considering a wider spectrum of seen data, requiring more time and data to create complex models. Once that enough data has been collected, FSC trains the Slow Learner and starts tracking the performance of both learners. A drift detection mechanism triggers the creation of new Slow models when the current Slow model becomes obsolete. FSC selects between Fast and Slow Learners according to their performance on new incoming data. Test results on real and synthetic data show that FSC effectively drives the positive interaction of stream and batch models for learning from evolving data streams.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scikit-multiflow has been accepted at JMLR MLOSS!</title>
+      <link>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</guid>
+      <description>&lt;p&gt;Our paper describing &lt;a href=&#34;https://scikit-multiflow.github.io/&#34; target=&#34;_blank&#34;&gt;scikit-multiflow&lt;/a&gt; has been accepted for publication at the &lt;em&gt;Journal of Machine Learning Research - Machine Learning Open Source Software&lt;/em&gt; (&lt;a href=&#34;http://www.jmlr.org/mloss/&#34; target=&#34;_blank&#34;&gt;JMLR MLOSS&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scikit-multiflow preprint is available!</title>
+      <link>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</guid>
+      <description>&lt;p&gt;The preprint version of our paper describing &lt;a href=&#34;https://scikit-multiflow.github.io/&#34; target=&#34;_blank&#34;&gt;scikit-multiflow&lt;/a&gt; is available on &lt;a href=&#34;https://arxiv.org/abs/1807.04662&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk at the University of Auckland</title>
+      <link>https://jacobmontiel.github.io/post/2018-06-22-uoa/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-06-22-uoa/</guid>
+      <description>&lt;p&gt;I am giving a talk &lt;em&gt;&amp;ldquo;Missing Data Imputation and scikit-multiflow&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://www.cs.auckland.ac.nz/research/groups/kmg/&#34; target=&#34;_blank&#34;&gt;Knowledge Management Group&lt;/a&gt; in the &lt;a href=&#34;https://www.cs.auckland.ac.nz/en.html&#34; target=&#34;_blank&#34;&gt;University of Auckland&lt;/a&gt; in New Zealand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visit to the University of Waikato</title>
+      <link>https://jacobmontiel.github.io/post/2018-06-11-waikato/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-06-11-waikato/</guid>
+      <description>&lt;p&gt;I am visiting the &lt;a href=&#34;https://www.cs.waikato.ac.nz/~ml/&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt; at the &lt;a href=&#34;http://www.waikato.ac.nz/&#34; target=&#34;_blank&#34;&gt;University of Waikato&lt;/a&gt; in New Zealand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PAKDD 2018</title>
+      <link>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://prada-research.net/pakdd18/&#34; target=&#34;_blank&#34;&gt;Pacific-Asia Conference on Knowledge Discovery and Data Mining&lt;/a&gt; (PAKDD18), to present  our paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scalable Model-based Cascaded Imputation of Missing Data&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Missing data is a common trait of real-world data that can negatively impact interpretability. In this paper, we present CASCADE IMPUTATION (CIM), an effective and scalable technique for automatic imputation of missing data. CIM is not restrictive on the characteristics of the data set, providing support for: Missing At Random and Missing Completely At Random data, numerical and nominal attributes, and large data sets including highly dimensional data sets. We compare CIM against well-established imputation techniques over a variety of data sets under multiple test configurations to measure the impact of imputation on the classification problem. Test results show that CIM outperforms other imputation methods over multiple test conditions. Additionally, we identify optimal performance and failure conditions for popular imputation techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IEEE BigData 2017</title>
+      <link>https://jacobmontiel.github.io/post/2017-12-11-ieee-bigdata/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2017-12-11-ieee-bigdata/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://cci.drexel.edu/bigdata/bigdata2017/index.html&#34; target=&#34;_blank&#34;&gt;2017 IEEE International Conference on Big Data&lt;/a&gt; in Boston, Massachusetts, to present  our paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://ieeexplore.ieee.org/document/8258084/&#34; target=&#34;_blank&#34;&gt;Predicting over-indebtedness on batch and streaming data&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Detecting over-indebtedness, the difficulties meeting household payment commitments, poses multiple Big Data challenges for banking institutions. We present a novel data-driven framework for predicting over-indebtedness on real-world data. A warning mechanism that generates predictions 6 months ahead, improving the chances of financial recovery. This framework is based on the combination of feature selection and supervised learning techniques, and uses data balancing for fine-tuning the predictive models. We propose two versions of the framework based on state-of-the-art batch and streaming learning techniques. To the best of our knowledge, the proposed framework is the first to cast over-indebtedness prediction as a stream learning problem. The appeal of stream learning rises from the large amount of data continuously generated, and the fact that batch models become obsolete over time as financial data evolves, while stream models are continuously updated as new data is available. We use credit data from two banks from the Groupe BPCE (the second-largest banking institution in France) and apply multi-metric criteria to evaluate model performance and fairness. Test results show the framework&amp;rsquo;s interbank applicability and that the proposed batch and stream frameworks outperform the current solution for both single and multi-metric criteria. Additionally, the generic structure of the framework serves as a template for systematically approaching similar classification problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DS3 2017</title>
+      <link>https://jacobmontiel.github.io/post/2017-08-28-ds3/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2017-08-28-ds3/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://2017.ds3-datascience-polytechnique.fr/&#34; target=&#34;_blank&#34;&gt;2017 Data Science Summer School&lt;/a&gt; in Paris.&lt;/p&gt;
+
+&lt;p&gt;This Summer School is organized by the &lt;a href=&#34;https://portail.polytechnique.edu/datascience/en&#34; target=&#34;_blank&#34;&gt;Data Science Initiative&lt;/a&gt; at &lt;a href=&#34;https://www.polytechnique.edu/en&#34; target=&#34;_blank&#34;&gt;École Polytechnique&lt;/a&gt;. DS3 2017 covered a broad range of topics and speakers are top researchers on their field. A recommended summer school to get a better picture of the state-of-the-art on Data Science and new trends.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LXMLS 2017</title>
+      <link>https://jacobmontiel.github.io/post/2017-07-20-lxmls/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2017-07-20-lxmls/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://lxmls.it.pt/2017/&#34; target=&#34;_blank&#34;&gt;2017 Lisbon Machine Learning School&lt;/a&gt; in Lisbon, Portugal.&lt;/p&gt;
+
+&lt;p&gt;This Summer School took place at the  Instituto Superior Técnico (&lt;a href=&#34;http://www.ist.utl.pt/&#34; target=&#34;_blank&#34;&gt;IST&lt;/a&gt;) and covered from core concepts of Machine Learning to specific techniques of NLP. I highly recommend this summer school given that it includes practical workshops that reinforce the understanding of the topics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

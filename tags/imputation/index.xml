@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imputation | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/tags/imputation/</link>
+      <atom:link href="https://jacobmontiel.github.io/tags/imputation/index.xml" rel="self" type="application/rss+xml" />
+    <description>imputation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Fri, 22 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>imputation</title>
+      <link>https://jacobmontiel.github.io/tags/imputation/</link>
+    </image>
+    
+    <item>
+      <title>Talk at the University of Auckland</title>
+      <link>https://jacobmontiel.github.io/post/2018-06-22-uoa/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-06-22-uoa/</guid>
+      <description>&lt;p&gt;I am giving a talk &lt;em&gt;&amp;ldquo;Missing Data Imputation and scikit-multiflow&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://www.cs.auckland.ac.nz/research/groups/kmg/&#34; target=&#34;_blank&#34;&gt;Knowledge Management Group&lt;/a&gt; in the &lt;a href=&#34;https://www.cs.auckland.ac.nz/en.html&#34; target=&#34;_blank&#34;&gt;University of Auckland&lt;/a&gt; in New Zealand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PAKDD 2018</title>
+      <link>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://prada-research.net/pakdd18/&#34; target=&#34;_blank&#34;&gt;Pacific-Asia Conference on Knowledge Discovery and Data Mining&lt;/a&gt; (PAKDD18), to present  our paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scalable Model-based Cascaded Imputation of Missing Data&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Missing data is a common trait of real-world data that can negatively impact interpretability. In this paper, we present CASCADE IMPUTATION (CIM), an effective and scalable technique for automatic imputation of missing data. CIM is not restrictive on the characteristics of the data set, providing support for: Missing At Random and Missing Completely At Random data, numerical and nominal attributes, and large data sets including highly dimensional data sets. We compare CIM against well-established imputation techniques over a variety of data sets under multiple test configurations to measure the impact of imputation on the classification problem. Test results show that CIM outperforms other imputation methods over multiple test conditions. Additionally, we identify optimal performance and failure conditions for popular imputation techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

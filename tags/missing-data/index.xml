@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>missing data | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/tags/missing-data/</link>
+      <atom:link href="https://jacobmontiel.github.io/tags/missing-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>missing data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>missing data</title>
+      <link>https://jacobmontiel.github.io/tags/missing-data/</link>
+    </image>
+    
+    <item>
+      <title>PAKDD 2018</title>
+      <link>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</guid>
+      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://prada-research.net/pakdd18/&#34; target=&#34;_blank&#34;&gt;Pacific-Asia Conference on Knowledge Discovery and Data Mining&lt;/a&gt; (PAKDD18), to present  our paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scalable Model-based Cascaded Imputation of Missing Data&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Missing data is a common trait of real-world data that can negatively impact interpretability. In this paper, we present CASCADE IMPUTATION (CIM), an effective and scalable technique for automatic imputation of missing data. CIM is not restrictive on the characteristics of the data set, providing support for: Missing At Random and Missing Completely At Random data, numerical and nominal attributes, and large data sets including highly dimensional data sets. We compare CIM against well-established imputation techniques over a variety of data sets under multiple test configurations to measure the impact of imputation on the classification problem. Test results show that CIM outperforms other imputation methods over multiple test conditions. Additionally, we identify optimal performance and failure conditions for popular imputation techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Montiel Jacob | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/authors/montiel-jacob/</link>
+      <atom:link href="https://jacobmontiel.github.io/authors/montiel-jacob/index.xml" rel="self" type="application/rss+xml" />
+    <description>Montiel Jacob</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>Montiel Jacob</title>
+      <link>https://jacobmontiel.github.io/authors/montiel-jacob/</link>
+    </image>
+    
+    <item>
+      <title>Learning Fast and Slow: A Unified Batch/Stream Framework.</title>
+      <link>https://jacobmontiel.github.io/publication/2018-lfs/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/publication/2018-lfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scikit-Multiflow: A Multi-output Streaming Framework.</title>
+      <link>https://jacobmontiel.github.io/publication/2018-skmultiflow/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/publication/2018-skmultiflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Model-Based Cascaded Imputation of Missing Data.</title>
+      <link>https://jacobmontiel.github.io/publication/2018-cim/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/publication/2018-cim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting over-indebtedness on batch and streaming data.</title>
+      <link>https://jacobmontiel.github.io/publication/2017-ovip/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/publication/2017-ovip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototype-based Intraclass Pose Recognition of Partial 3D Scans</title>
+      <link>https://jacobmontiel.github.io/publication/2009-nicograph/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/publication/2009-nicograph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

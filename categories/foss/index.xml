@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foss | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/categories/foss/</link>
+      <atom:link href="https://jacobmontiel.github.io/categories/foss/index.xml" rel="self" type="application/rss+xml" />
+    <description>foss</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>foss</title>
+      <link>https://jacobmontiel.github.io/categories/foss/</link>
+    </image>
+    
+    <item>
+      <title>scikit-multiflow</title>
+      <link>https://jacobmontiel.github.io/project/scikit-multiflow/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/project/scikit-multiflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scikit-multiflow has been accepted at JMLR MLOSS!</title>
+      <link>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</guid>
+      <description>&lt;p&gt;Our paper describing &lt;a href=&#34;https://scikit-multiflow.github.io/&#34; target=&#34;_blank&#34;&gt;scikit-multiflow&lt;/a&gt; has been accepted for publication at the &lt;em&gt;Journal of Machine Learning Research - Machine Learning Open Source Software&lt;/em&gt; (&lt;a href=&#34;http://www.jmlr.org/mloss/&#34; target=&#34;_blank&#34;&gt;JMLR MLOSS&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scikit-multiflow preprint is available!</title>
+      <link>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</guid>
+      <description>&lt;p&gt;The preprint version of our paper describing &lt;a href=&#34;https://scikit-multiflow.github.io/&#34; target=&#34;_blank&#34;&gt;scikit-multiflow&lt;/a&gt; is available on &lt;a href=&#34;https://arxiv.org/abs/1807.04662&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

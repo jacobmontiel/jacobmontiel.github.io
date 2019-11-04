@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Jacob ML</title>
+    <link>https://jacobmontiel.github.io/tags/</link>
+      <atom:link href="https://jacobmontiel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
+      <title>Tags</title>
+      <link>https://jacobmontiel.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>evolving data streams</title>
+      <link>https://jacobmontiel.github.io/tags/evolving-data-streams/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/evolving-data-streams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://jacobmontiel.github.io/tags/machine-learning/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://jacobmontiel.github.io/tags/research/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stream learning</title>
+      <link>https://jacobmontiel.github.io/tags/stream-learning/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/stream-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data streams</title>
+      <link>https://jacobmontiel.github.io/tags/data-streams/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/data-streams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jacobmontiel.github.io/tags/python/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source software</title>
+      <link>https://jacobmontiel.github.io/tags/open-source-software/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/open-source-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imputation</title>
+      <link>https://jacobmontiel.github.io/tags/imputation/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/imputation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>https://jacobmontiel.github.io/tags/talk/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>missing data</title>
+      <link>https://jacobmontiel.github.io/tags/missing-data/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/missing-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>banking</title>
+      <link>https://jacobmontiel.github.io/tags/banking/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/banking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bigdata</title>
+      <link>https://jacobmontiel.github.io/tags/bigdata/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/bigdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feature selection</title>
+      <link>https://jacobmontiel.github.io/tags/feature-selection/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/feature-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>predictive models</title>
+      <link>https://jacobmontiel.github.io/tags/predictive-models/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/predictive-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>supervised learning</title>
+      <link>https://jacobmontiel.github.io/tags/supervised-learning/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/supervised-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summer school</title>
+      <link>https://jacobmontiel.github.io/tags/summer-school/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/summer-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>activities</title>
+      <link>https://jacobmontiel.github.io/tags/activities/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/activities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>https://jacobmontiel.github.io/tags/data-science/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
