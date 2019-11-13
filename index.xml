@@ -5,12 +5,23 @@
     <link>https://jacobmontiel.github.io/</link>
       <atom:link href="https://jacobmontiel.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jacob ML</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Tue, 12 Nov 2019 10:45:00 +0000</lastBuildDate>
     <image>
       <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
       <title>Jacob ML</title>
       <link>https://jacobmontiel.github.io/</link>
     </image>
+    
+    <item>
+      <title>AI in production: Now the hard part</title>
+      <link>https://jacobmontiel.github.io/talk/2019_datajob_paris/</link>
+      <pubDate>Tue, 12 Nov 2019 10:45:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/talk/2019_datajob_paris/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://jacobmontiel.github.io/img/talks/datajob_roundtable.jpeg&#34; alt=&#34;DataJob Paris&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am participating at the &amp;ldquo;Model life cycle&amp;rdquo; round table at DataJob Paris 2019. A great opportunity to talk about stream learning and its relevance on real-world applications. Companies in multiple-sectors are actively deploying machine learning models into production, but that is not the end of the story, models need to be monitored and maintained. Furthermore, in multiple real-world applications &lt;strong&gt;data changes over time&lt;/strong&gt;, turning trained models obsolete.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Research fellow at the University of Waikato</title>
@@ -24,13 +35,13 @@
     <item>
       <title>scikit-multiflow: Machine Learning for Data Streams in Python</title>
       <link>https://jacobmontiel.github.io/talk/2019_anacondacon/</link>
-      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Apr 2019 15:30:00 +0000</pubDate>
       <guid>https://jacobmontiel.github.io/talk/2019_anacondacon/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://jacobmontiel.github.io/img/talks/AnacondaCON.jpeg&#34; alt=&#34;AnacondaCON&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Talk at AnacondaCON 2019 in the Open Source Technology track.&lt;/p&gt;
-
 &lt;p&gt;As traditional &amp;ldquo;batch&amp;rdquo; learning is no match for today’s data deluge, a new field emerges — data stream mining. In stream learning, data is considered infinite and models are trained and updated continuously, thereby adapting to changes in the data. This talk provides an overview of data stream learning and introduces scikit-multiflow, an open-source Python framework to implement algorithms and perform experiments in the field of ML on evolving data streams.&lt;/p&gt;
+
+&lt;p&gt;Talk at AnacondaCON 2019 in the Open Source Technology track.&lt;/p&gt;
 </description>
     </item>
     

@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jacobmontiel.github.io/talk/2019_datajob_paris/</loc>
+    <lastmod>2019-11-12T10:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobmontiel.github.io/</loc>
+    <lastmod>2019-11-12T10:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobmontiel.github.io/talk/</loc>
+    <lastmod>2019-11-12T10:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jacobmontiel.github.io/categories/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/tags/evolving-data-streams/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacobmontiel.github.io/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,12 +38,12 @@
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/tags/research/</loc>
+    <loc>https://jacobmontiel.github.io/categories/research/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/categories/research/</loc>
+    <loc>https://jacobmontiel.github.io/tags/research/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,13 +63,8 @@
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/talk/</loc>
-    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jacobmontiel.github.io/talk/2019_anacondacon/</loc>
-    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-05T15:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,12 +78,12 @@
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/categories/data-streams/</loc>
+    <loc>https://jacobmontiel.github.io/tags/data-streams/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/tags/data-streams/</loc>
+    <loc>https://jacobmontiel.github.io/categories/data-streams/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,12 +283,12 @@
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/tags/data-science/</loc>
+    <loc>https://jacobmontiel.github.io/categories/data-science/</loc>
     <lastmod>2016-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jacobmontiel.github.io/categories/data-science/</loc>
+    <loc>https://jacobmontiel.github.io/tags/data-science/</loc>
     <lastmod>2016-07-29T00:00:00+00:00</lastmod>
   </url>
   
