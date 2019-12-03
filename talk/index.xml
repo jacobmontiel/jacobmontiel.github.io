@@ -5,7 +5,7 @@
     <link>https://jacobmontiel.github.io/talk/</link>
       <atom:link href="https://jacobmontiel.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Tue, 12 Nov 2019 10:45:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Sat, 16 Nov 2019 11:35:00 +0000</lastBuildDate>
     <image>
       <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,13 +13,58 @@
     </image>
     
     <item>
+      <title>scikit-multiflow: machine learning on infinite data streams</title>
+      <link>https://jacobmontiel.github.io/talk/2019_pydata/</link>
+      <pubDate>Sat, 16 Nov 2019 11:35:00 +0000</pubDate>
+      <guid>https://jacobmontiel.github.io/talk/2019_pydata/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://jacobmontiel.github.io/img/talks/pydata_cambridge_2019.png&#34; alt=&#34;PyData Cambridge&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the field of machine learning on data streams, data is assumed infinite and models are trained and updated continuously, thereby adapting to changes in the data. This talk provides an overview of data stream learning and introduces scikit-multiflow, an open-source Python framework to easily implement algorithms and perform experiments.&lt;/p&gt;
+
+&lt;p&gt;As traditional “batch” learning struggles to keep in pace with today’s data deluge, a parallel field emerges — data stream mining. In this field, data is assumed infinite and models are trained and updated continuously, thereby adapting to changes in the data. This talk provides an overview of the core concepts of data stream learning and introduces scikit-multiflow, an open-source Python framework to implement algorithms and perform experiments in the field of machine learning on evolving data streams.&lt;/p&gt;
+
+&lt;p&gt;This talk is composed of two main sections:&lt;/p&gt;
+
+&lt;h3 id=&#34;an-introduction-to-learning-from-data-streams&#34;&gt;An introduction to learning from data streams&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How is stream learning different from the “traditional” batch learning?&lt;/li&gt;
+&lt;li&gt;Requirements&lt;/li&gt;
+&lt;li&gt;An overview of methods for supervised learning&lt;/li&gt;
+&lt;li&gt;Discussion of challenges from changes in the data distribution, known as concept drift&lt;/li&gt;
+&lt;li&gt;Evaluating model performance on infinite data streams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;scikit-multiflow&#34;&gt;Scikit-multiflow&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is scikit-multiflow?&lt;/li&gt;
+&lt;li&gt;Overview of the core components of scikit-multiflow and available methods&lt;/li&gt;
+&lt;li&gt;Demo&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AI in production: Now the hard part</title>
-      <link>https://jacobmontiel.github.io/talk/2019_datajob_paris/</link>
+      <link>https://jacobmontiel.github.io/talk/2019_datajob/</link>
       <pubDate>Tue, 12 Nov 2019 10:45:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/talk/2019_datajob_paris/</guid>
+      <guid>https://jacobmontiel.github.io/talk/2019_datajob/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://jacobmontiel.github.io/img/talks/datajob_roundtable.jpeg&#34; alt=&#34;DataJob Paris&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I am participating at the &amp;ldquo;Model life cycle&amp;rdquo; round table at DataJob Paris 2019. A great opportunity to talk about stream learning and its relevance on real-world applications. Companies in multiple-sectors are actively deploying machine learning models into production, but that is not the end of the story, models need to be monitored and maintained. Furthermore, in multiple real-world applications &lt;strong&gt;data changes over time&lt;/strong&gt;, turning trained models obsolete.&lt;/p&gt;
+&lt;p&gt;I am participating in the &lt;em&gt;Model life-cycle&lt;/em&gt; round-table at DataJob Paris 2019. A great opportunity to talk about stream learning and its relevance on real-world applications. Companies in multiple sectors are actively deploying machine learning models into production, but that is not the end of the story, models need to be monitored and maintained. Furthermore, in multiple real-world applications &lt;strong&gt;data changes over time&lt;/strong&gt;, turning trained models obsolete.&lt;/p&gt;
+
+&lt;p&gt;Participants:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Heloïse Nonne | Head of Data Science &amp;amp; Engineering | ITNOVEM, SNCF expertise center&lt;/li&gt;
+&lt;li&gt;Renan Borne | Chief Architect | AXA-IM&lt;/li&gt;
+&lt;li&gt;John Whitbeck | Head of Machine Learning | Liftoff&lt;/li&gt;
+&lt;li&gt;Grégoire Martinon | Senior Data Scientist | Quantmetry&lt;/li&gt;
+&lt;li&gt;Jacob Montiel | Research fellow | University of Waikato&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

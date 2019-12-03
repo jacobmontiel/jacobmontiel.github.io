@@ -3,62 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jacobmontiel.github.io/talk/2019_datajob_paris/</loc>
-    <lastmod>2019-11-12T10:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jacobmontiel.github.io/</loc>
-    <lastmod>2019-11-12T10:45:00+00:00</lastmod>
+    <lastmod>2019-11-16T11:35:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/talk/</loc>
+    <lastmod>2019-11-16T11:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobmontiel.github.io/talk/2019_pydata/</loc>
+    <lastmod>2019-11-16T11:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobmontiel.github.io/talk/2019_datajob/</loc>
     <lastmod>2019-11-12T10:45:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/categories/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/tags/evolving-data-streams/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobmontiel.github.io/post/2019-10-25-interview/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/tags/machine-learning/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/post/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/categories/research/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/tags/research/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/tags/stream-learning/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobmontiel.github.io/tags/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
