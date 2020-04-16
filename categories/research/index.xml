@@ -1,211 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>research | Jacob ML</title>
-    <link>https://jacobmontiel.github.io/categories/research/</link>
-      <atom:link href="https://jacobmontiel.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
-    <description>research</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://jacobmontiel.github.io/img/avatar.jpg</url>
-      <title>research</title>
-      <link>https://jacobmontiel.github.io/categories/research/</link>
-    </image>
-    
-    <item>
-      <title>Interview on adaptive learning</title>
-      <link>https://jacobmontiel.github.io/post/2019-10-25-interview/</link>
-      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2019-10-25-interview/</guid>
-      <description>
-
-&lt;p&gt;My interview on the benefits of adaptive learning methods has been published in a white-book by &lt;a href=&#34;https://www.quantmetry.com/&#34; target=&#34;_blank&#34;&gt;Quantmetry&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The white-book, No. 5 &amp;ldquo;AI en production&amp;rdquo;, is free to download &lt;a href=&#34;https://www.quantmetry.com/les-livres-blancs/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;transcript-of-the-interview&#34;&gt;Transcript of the interview&lt;/h3&gt;
-
-&lt;p&gt;(in french)&lt;/p&gt;
-
-&lt;h4 id=&#34;qu-est-ce-qu-une-dérive&#34;&gt;Qu’est-ce qu’une dérive ?&lt;/h4&gt;
-
-&lt;p&gt;L’apprentissage est souvent considéré comme une tâche statique. Cependant, en conditions réelles, les données évoluent constamment. C’est ce qu’on appelle une dérive conceptuelle. Par exemple, les marchés financiers sont instables : les risques de crédit ne sont pas les mêmes d’une année sur l’autre.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>research | Jacob ML</title><link>https://jacobmontiel.github.io/categories/research/</link><atom:link href="https://jacobmontiel.github.io/categories/research/index.xml" rel="self" type="application/rss+xml"/><description>research</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jacob Montiel</copyright><lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate><image><url>https://jacobmontiel.github.io/img/avatar.jpg</url><title>research</title><link>https://jacobmontiel.github.io/categories/research/</link></image><item><title>Interview on adaptive learning</title><link>https://jacobmontiel.github.io/post/2019-10-25-interview/</link><pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2019-10-25-interview/</guid><description>&lt;p>My interview on the benefits of adaptive learning methods has been published in a white-book by &lt;a href="https://www.quantmetry.com/">Quantmetry&lt;/a>.&lt;/p>
+&lt;p>The white-book, No. 5 &amp;ldquo;AI en production&amp;rdquo;, is free to download &lt;a href="https://www.quantmetry.com/les-livres-blancs/">here&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h3 id="transcript-of-the-interview">Transcript of the interview&lt;/h3>
+&lt;p>(in french)&lt;/p>
+&lt;h4 id="quest-ce-quune-dérive-">Qu’est-ce qu’une dérive ?&lt;/h4>
+&lt;p>L’apprentissage est souvent considéré comme une tâche statique. Cependant, en conditions réelles, les données évoluent constamment. C’est ce qu’on appelle une dérive conceptuelle. Par exemple, les marchés financiers sont instables : les risques de crédit ne sont pas les mêmes d’une année sur l’autre.
 Quelles conséquences pour les modèles classiques ?
-Les modèles standards ont toutes les chances d’échouer, car ils ignorent complètement ce phénomène. Souvent, on développe un modèle et, après l’avoir fait fonctionner une fois, on pense que le travail est terminé. En réalité, il faut toujours évaluer la performance du modèle en production au cours du temps et évaluer s’il est sujet à une dérive.&lt;/p&gt;
-
-&lt;h4 id=&#34;quelles-sont-les-solutions&#34;&gt;Quelles sont les solutions ?&lt;/h4&gt;
-
-&lt;p&gt;Ce phénomène a été largement étudié dans la littérature sur le stream mining, où plusieurs solutions ont été proposées. Dans ce cadre, les modèles s’adaptent au fur et à mesure. En effet, certaines méthodes permettent de détecter automatiquement les changements dans les données en surveillant la performance des modèles. Elles permettent d’indiquer : &amp;ldquo;attention, un changement est en train de s’opérer, il faut réagir maintenant&amp;rdquo;. L’idée est ensuite de créer des modèles qui s’adaptent rapidement aux changements. Par exemple, si une dérive est détectée, on peut rejeter un modèle obsolète et déclencher l’apprentissage d’un nouveau modèle.&lt;/p&gt;
-
-&lt;h4 id=&#34;peut-on-utiliser-ces-techniques-quand-les-données-arrivent-par-cohorte&#34;&gt;Peut-on utiliser ces techniques quand les données arrivent par cohorte ?&lt;/h4&gt;
-
-&lt;p&gt;Pas directement, car dans ce cas, il faut attendre entre deux acquisitions successives de données. C’est en effet caractéristique de l’approche statique, car sous l’hypothèse de données identiquement distribuées, il est avantageux d’accumuler autant de données que possible. En stream mining, cette phase d’accumulation n’a pas lieu d’être, il n’y a même pas de problématique de stockage car la donnée est exploitée à la volée. De toute façon, pour être réactif et adaptatif, il vaut mieux attendre le moins longtemps possible. Ceci étant dit, des recherches en cours étudient des systèmes hybrides, où une brique statique et une brique adaptative peuvent collaborer.&lt;/p&gt;
-
-&lt;h4 id=&#34;quels-sont-les-outils-dédiés-à-l-apprentissage-adaptatif&#34;&gt;Quels sont les outils dédiés à l’apprentissage adaptatif ?&lt;/h4&gt;
-
-&lt;p&gt;Il y a des initiatives comme MOA (Massive Online Analysis), écrit en Java, et scikit-multiflow, écrit en Python. Les deux librairies sont en accès libre et implémentent l’état de l’art des algorithmes adaptatifs en stream mining. Elles ont été développées par des chercheurs mais conçues pour les professionnels. Quelques fournisseurs Cloud proposent également des solutions optimisées pour les flux de données, mais la plupart ignorent le problème de la dérive.&lt;/p&gt;
-
-&lt;h4 id=&#34;l-apprentissage-adaptatif-est-il-crucial-pour-l-intelligence-artificielle-en-production&#34;&gt;L’apprentissage adaptatif est-il crucial pour l’intelligence artificielle en production ?&lt;/h4&gt;
-
-&lt;p&gt;Dans l’industrie, on ne peut pas toujours reproduire ce qui se fait ailleurs car ce qui fonctionne bien dans un cas peut ne pas fonctionner dans une autre. La clef est vraiment de comprendre en profondeur la donnée, de travailler par itération, d’essayer différentes techniques. La solution est toujours personnalisée et particulière au problème traité. Si la donnée évolue par nature et est produite en masse, alors l’apprentissage adaptatif est en effet très prometteur. Dans ce contexte, il fournit les meilleurs performances et la gestion de ressources informatiques la plus efficace.&lt;/p&gt;
-
-&lt;h4 id=&#34;pourquoi-y-a-t-il-un-tel-écart-entre-les-pratiques-universitaires-et-industrielles&#34;&gt;Pourquoi y a-t-il un tel écart entre les pratiques universitaires et industrielles ?&lt;/h4&gt;
-
-&lt;p&gt;Les cycles de développement sont relativement différents. En recherche, il est naturel d’aller toujours plus loin, d’expérimenter et d’échouer. L’industrie est plus prudente, et requiert des solutions non seulement efficaces mais également stables, car les enjeux sont bien plus sensibles. L’industrie utilise ce qui marche dans son contexte et l’adapte à son besoin. Ces deux mondes évoluent dans des directions complémentaires. A n’en pas douter, toute collaboration entre universitaires et industriels est bénéfique pour les deux.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research fellow at the University of Waikato</title>
-      <link>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</guid>
-      <description>&lt;p&gt;I have started a new potion as Research Fellow in the &lt;a href=&#34;https://www.cs.waikato.ac.nz/~ml/index.html&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt; at the University of Waikato in New Zealand.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Postdoc at Télécom ParisTech</title>
-      <link>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</guid>
-      <description>&lt;p&gt;I have started a new potion as Postdoc at the &lt;a href=&#34;https://dig.telecom-paristech.fr/blog/&#34; target=&#34;_blank&#34;&gt;Data, Intelligence and Graphs&lt;/a&gt; (DIG) group at Télécom ParisTech.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I got my PhD</title>
-      <link>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</link>
-      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</guid>
-      <description>&lt;p&gt;I have successfully defended my PhD thesis &amp;ldquo;Fast and Slow Machine Learning&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Jury:&lt;br /&gt;
-M João Gama, &lt;em&gt;University of Porto&lt;/em&gt;&lt;br /&gt;
-M Georges Hébrail, &lt;em&gt;Électricité de France&lt;/em&gt;&lt;br /&gt;
-M Themis Palpanas, &lt;em&gt;Université Paris Descartes&lt;/em&gt;&lt;br /&gt;
-M Ricard Gavaldà, &lt;em&gt;Universitat Politècnica de Catalunya&lt;/em&gt;&lt;br /&gt;
-M Jesse Read, &lt;em&gt;École Polytechnique&lt;/em&gt;&lt;br /&gt;
-M Albert Bifet, &lt;em&gt;Télécom ParisTech (Directeur de recherche)&lt;/em&gt;&lt;br /&gt;
-M Talel Abdessalem, &lt;em&gt;Télécom ParisTech (Directeur de thèse)&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>scikit-multiflow</title>
-      <link>https://jacobmontiel.github.io/project/scikit-multiflow/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/project/scikit-multiflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IEEE BigData 2018</title>
-      <link>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</link>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</guid>
-      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://cci.drexel.edu/bigdata/bigdata2018/&#34; target=&#34;_blank&#34;&gt;2018 IEEE International Conference on Big Data&lt;/a&gt; in Settle, USA, to present  our paper&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/8622222&#34; target=&#34;_blank&#34;&gt;Learning Fast and Slow: A Unified Batch/Stream Framework.&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
-Data ubiquity highlights the need of efficient and adaptable data-driven solutions. In this paper, we present FAST AND SLOW LEARNING (FSL), a novel unified framework that sheds light on the symbiosis between batch and stream learning. FSL works by employing Fast (stream) and Slow (batch) Learners, emulating the mechanisms used by humans to make decisions. We showcase the applicability of FSL on the task of classification by introducing the FAST AND SLOW CLASSIFIER (FSC). A Fast Learner provides predictions on the spot, continuously updating its model and adapting to changes in the data. On the other hand, the Slow Learner provides predictions considering a wider spectrum of seen data, requiring more time and data to create complex models. Once that enough data has been collected, FSC trains the Slow Learner and starts tracking the performance of both learners. A drift detection mechanism triggers the creation of new Slow models when the current Slow model becomes obsolete. FSC selects between Fast and Slow Learners according to their performance on new incoming data. Test results on real and synthetic data show that FSC effectively drives the positive interaction of stream and batch models for learning from evolving data streams.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>scikit-multiflow has been accepted at JMLR MLOSS!</title>
-      <link>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</guid>
-      <description>&lt;p&gt;Our paper describing &lt;a href=&#34;https://scikit-multiflow.github.io/&#34; target=&#34;_blank&#34;&gt;scikit-multiflow&lt;/a&gt; has been accepted for publication at the &lt;em&gt;Journal of Machine Learning Research - Machine Learning Open Source Software&lt;/em&gt; (&lt;a href=&#34;http://www.jmlr.org/mloss/&#34; target=&#34;_blank&#34;&gt;JMLR MLOSS&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
-Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>scikit-multiflow preprint is available!</title>
-      <link>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</guid>
-      <description>&lt;p&gt;The preprint version of our paper describing &lt;a href=&#34;https://scikit-multiflow.github.io/&#34; target=&#34;_blank&#34;&gt;scikit-multiflow&lt;/a&gt; is available on &lt;a href=&#34;https://arxiv.org/abs/1807.04662&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
-Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Talk at the University of Auckland</title>
-      <link>https://jacobmontiel.github.io/post/2018-06-22-uoa/</link>
-      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2018-06-22-uoa/</guid>
-      <description>&lt;p&gt;I am giving a talk &lt;em&gt;&amp;ldquo;Missing Data Imputation and scikit-multiflow&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://www.cs.auckland.ac.nz/research/groups/kmg/&#34; target=&#34;_blank&#34;&gt;Knowledge Management Group&lt;/a&gt; in the &lt;a href=&#34;https://www.cs.auckland.ac.nz/en.html&#34; target=&#34;_blank&#34;&gt;University of Auckland&lt;/a&gt; in New Zealand.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visit to the University of Waikato</title>
-      <link>https://jacobmontiel.github.io/post/2018-06-11-waikato/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2018-06-11-waikato/</guid>
-      <description>&lt;p&gt;I am visiting the &lt;a href=&#34;https://www.cs.waikato.ac.nz/~ml/&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt; at the &lt;a href=&#34;http://www.waikato.ac.nz/&#34; target=&#34;_blank&#34;&gt;University of Waikato&lt;/a&gt; in New Zealand.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PAKDD 2018</title>
-      <link>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</guid>
-      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://prada-research.net/pakdd18/&#34; target=&#34;_blank&#34;&gt;Pacific-Asia Conference on Knowledge Discovery and Data Mining&lt;/a&gt; (PAKDD18), to present  our paper&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scalable Model-based Cascaded Imputation of Missing Data&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
-Missing data is a common trait of real-world data that can negatively impact interpretability. In this paper, we present CASCADE IMPUTATION (CIM), an effective and scalable technique for automatic imputation of missing data. CIM is not restrictive on the characteristics of the data set, providing support for: Missing At Random and Missing Completely At Random data, numerical and nominal attributes, and large data sets including highly dimensional data sets. We compare CIM against well-established imputation techniques over a variety of data sets under multiple test configurations to measure the impact of imputation on the classification problem. Test results show that CIM outperforms other imputation methods over multiple test conditions. Additionally, we identify optimal performance and failure conditions for popular imputation techniques.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IEEE BigData 2017</title>
-      <link>https://jacobmontiel.github.io/post/2017-12-11-ieee-bigdata/</link>
-      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2017-12-11-ieee-bigdata/</guid>
-      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://cci.drexel.edu/bigdata/bigdata2017/index.html&#34; target=&#34;_blank&#34;&gt;2017 IEEE International Conference on Big Data&lt;/a&gt; in Boston, Massachusetts, to present  our paper&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://ieeexplore.ieee.org/document/8258084/&#34; target=&#34;_blank&#34;&gt;Predicting over-indebtedness on batch and streaming data&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
-Detecting over-indebtedness, the difficulties meeting household payment commitments, poses multiple Big Data challenges for banking institutions. We present a novel data-driven framework for predicting over-indebtedness on real-world data. A warning mechanism that generates predictions 6 months ahead, improving the chances of financial recovery. This framework is based on the combination of feature selection and supervised learning techniques, and uses data balancing for fine-tuning the predictive models. We propose two versions of the framework based on state-of-the-art batch and streaming learning techniques. To the best of our knowledge, the proposed framework is the first to cast over-indebtedness prediction as a stream learning problem. The appeal of stream learning rises from the large amount of data continuously generated, and the fact that batch models become obsolete over time as financial data evolves, while stream models are continuously updated as new data is available. We use credit data from two banks from the Groupe BPCE (the second-largest banking institution in France) and apply multi-metric criteria to evaluate model performance and fairness. Test results show the framework&amp;rsquo;s interbank applicability and that the proposed batch and stream frameworks outperform the current solution for both single and multi-metric criteria. Additionally, the generic structure of the framework serves as a template for systematically approaching similar classification problems.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DS3 2017</title>
-      <link>https://jacobmontiel.github.io/post/2017-08-28-ds3/</link>
-      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2017-08-28-ds3/</guid>
-      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://2017.ds3-datascience-polytechnique.fr/&#34; target=&#34;_blank&#34;&gt;2017 Data Science Summer School&lt;/a&gt; in Paris.&lt;/p&gt;
-
-&lt;p&gt;This Summer School is organized by the &lt;a href=&#34;https://portail.polytechnique.edu/datascience/en&#34; target=&#34;_blank&#34;&gt;Data Science Initiative&lt;/a&gt; at &lt;a href=&#34;https://www.polytechnique.edu/en&#34; target=&#34;_blank&#34;&gt;École Polytechnique&lt;/a&gt;. DS3 2017 covered a broad range of topics and speakers are top researchers on their field. A recommended summer school to get a better picture of the state-of-the-art on Data Science and new trends.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>LXMLS 2017</title>
-      <link>https://jacobmontiel.github.io/post/2017-07-20-lxmls/</link>
-      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://jacobmontiel.github.io/post/2017-07-20-lxmls/</guid>
-      <description>&lt;p&gt;I am attending the &lt;a href=&#34;http://lxmls.it.pt/2017/&#34; target=&#34;_blank&#34;&gt;2017 Lisbon Machine Learning School&lt;/a&gt; in Lisbon, Portugal.&lt;/p&gt;
-
-&lt;p&gt;This Summer School took place at the  Instituto Superior Técnico (&lt;a href=&#34;http://www.ist.utl.pt/&#34; target=&#34;_blank&#34;&gt;IST&lt;/a&gt;) and covered from core concepts of Machine Learning to specific techniques of NLP. I highly recommend this summer school given that it includes practical workshops that reinforce the understanding of the topics.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Les modèles standards ont toutes les chances d’échouer, car ils ignorent complètement ce phénomène. Souvent, on développe un modèle et, après l’avoir fait fonctionner une fois, on pense que le travail est terminé. En réalité, il faut toujours évaluer la performance du modèle en production au cours du temps et évaluer s’il est sujet à une dérive.&lt;/p>
+&lt;h4 id="quelles-sont-les-solutions-">Quelles sont les solutions ?&lt;/h4>
+&lt;p>Ce phénomène a été largement étudié dans la littérature sur le stream mining, où plusieurs solutions ont été proposées. Dans ce cadre, les modèles s’adaptent au fur et à mesure. En effet, certaines méthodes permettent de détecter automatiquement les changements dans les données en surveillant la performance des modèles. Elles permettent d’indiquer : &amp;ldquo;attention, un changement est en train de s’opérer, il faut réagir maintenant&amp;rdquo;. L’idée est ensuite de créer des modèles qui s’adaptent rapidement aux changements. Par exemple, si une dérive est détectée, on peut rejeter un modèle obsolète et déclencher l’apprentissage d’un nouveau modèle.&lt;/p>
+&lt;h4 id="peut-on-utiliser-ces-techniques-quand-les-données-arrivent-par-cohorte-">Peut-on utiliser ces techniques quand les données arrivent par cohorte ?&lt;/h4>
+&lt;p>Pas directement, car dans ce cas, il faut attendre entre deux acquisitions successives de données. C’est en effet caractéristique de l’approche statique, car sous l’hypothèse de données identiquement distribuées, il est avantageux d’accumuler autant de données que possible. En stream mining, cette phase d’accumulation n’a pas lieu d’être, il n’y a même pas de problématique de stockage car la donnée est exploitée à la volée. De toute façon, pour être réactif et adaptatif, il vaut mieux attendre le moins longtemps possible. Ceci étant dit, des recherches en cours étudient des systèmes hybrides, où une brique statique et une brique adaptative peuvent collaborer.&lt;/p>
+&lt;h4 id="quels-sont-les-outils-dédiés-à-lapprentissage-adaptatif-">Quels sont les outils dédiés à l’apprentissage adaptatif ?&lt;/h4>
+&lt;p>Il y a des initiatives comme MOA (Massive Online Analysis), écrit en Java, et scikit-multiflow, écrit en Python. Les deux librairies sont en accès libre et implémentent l’état de l’art des algorithmes adaptatifs en stream mining. Elles ont été développées par des chercheurs mais conçues pour les professionnels. Quelques fournisseurs Cloud proposent également des solutions optimisées pour les flux de données, mais la plupart ignorent le problème de la dérive.&lt;/p>
+&lt;h4 id="lapprentissage-adaptatif-est-il-crucial-pour-lintelligence-artificielle-en-production-">L’apprentissage adaptatif est-il crucial pour l’intelligence artificielle en production ?&lt;/h4>
+&lt;p>Dans l’industrie, on ne peut pas toujours reproduire ce qui se fait ailleurs car ce qui fonctionne bien dans un cas peut ne pas fonctionner dans une autre. La clef est vraiment de comprendre en profondeur la donnée, de travailler par itération, d’essayer différentes techniques. La solution est toujours personnalisée et particulière au problème traité. Si la donnée évolue par nature et est produite en masse, alors l’apprentissage adaptatif est en effet très prometteur. Dans ce contexte, il fournit les meilleurs performances et la gestion de ressources informatiques la plus efficace.&lt;/p>
+&lt;h4 id="pourquoi-y-a-t-il-un-tel-écart-entre-les-pratiques-universitaires-et-industrielles-">Pourquoi y a-t-il un tel écart entre les pratiques universitaires et industrielles ?&lt;/h4>
+&lt;p>Les cycles de développement sont relativement différents. En recherche, il est naturel d’aller toujours plus loin, d’expérimenter et d’échouer. L’industrie est plus prudente, et requiert des solutions non seulement efficaces mais également stables, car les enjeux sont bien plus sensibles. L’industrie utilise ce qui marche dans son contexte et l’adapte à son besoin. Ces deux mondes évoluent dans des directions complémentaires. A n’en pas douter, toute collaboration entre universitaires et industriels est bénéfique pour les deux.&lt;/p></description></item><item><title>Research fellow at the University of Waikato</title><link>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2019-04-01-research-fellow/</guid><description>&lt;p>I have started a new potion as Research Fellow in the &lt;a href="https://www.cs.waikato.ac.nz/~ml/index.html">Machine Learning Group&lt;/a> at the University of Waikato in New Zealand.&lt;/p></description></item><item><title>Postdoc at Télécom ParisTech</title><link>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</link><pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2019-04-01-postdoc/</guid><description>&lt;p>I have started a new potion as Postdoc at the &lt;a href="https://dig.telecom-paristech.fr/blog/">Data, Intelligence and Graphs&lt;/a> (DIG) group at Télécom ParisTech.&lt;/p></description></item><item><title>I got my PhD</title><link>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</link><pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2019-03-07-phd_defense/</guid><description>&lt;p>I have successfully defended my PhD thesis &amp;ldquo;Fast and Slow Machine Learning&amp;rdquo;.&lt;/p>
+&lt;p>Jury:\&lt;br>
+M João Gama, &lt;em>University of Porto&lt;/em>\&lt;br>
+M Georges Hébrail, &lt;em>Électricité de France&lt;/em>\&lt;br>
+M Themis Palpanas, &lt;em>Université Paris Descartes&lt;/em>\&lt;br>
+M Ricard Gavaldà, &lt;em>Universitat Politècnica de Catalunya&lt;/em>\&lt;br>
+M Jesse Read, &lt;em>École Polytechnique&lt;/em>\&lt;br>
+M Albert Bifet, &lt;em>Télécom ParisTech (Directeur de recherche)&lt;/em>\&lt;br>
+M Talel Abdessalem, &lt;em>Télécom ParisTech (Directeur de thèse)&lt;/em>&lt;/p></description></item><item><title>scikit-multiflow</title><link>https://jacobmontiel.github.io/project/scikit-multiflow/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/project/scikit-multiflow/</guid><description/></item><item><title>IEEE BigData 2018</title><link>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</link><pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2018-12-10-ieee-bigdata/</guid><description>&lt;p>I am attending the &lt;a href="http://cci.drexel.edu/bigdata/bigdata2018/">2018 IEEE International Conference on Big Data&lt;/a> in Settle, USA, to present our paper&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://ieeexplore.ieee.org/document/8622222">Learning Fast and Slow: A Unified Batch/Stream Framework.&lt;/a>&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>
+Data ubiquity highlights the need of efficient and adaptable data-driven solutions. In this paper, we present FAST AND SLOW LEARNING (FSL), a novel unified framework that sheds light on the symbiosis between batch and stream learning. FSL works by employing Fast (stream) and Slow (batch) Learners, emulating the mechanisms used by humans to make decisions. We showcase the applicability of FSL on the task of classification by introducing the FAST AND SLOW CLASSIFIER (FSC). A Fast Learner provides predictions on the spot, continuously updating its model and adapting to changes in the data. On the other hand, the Slow Learner provides predictions considering a wider spectrum of seen data, requiring more time and data to create complex models. Once that enough data has been collected, FSC trains the Slow Learner and starts tracking the performance of both learners. A drift detection mechanism triggers the creation of new Slow models when the current Slow model becomes obsolete. FSC selects between Fast and Slow Learners according to their performance on new incoming data. Test results on real and synthetic data show that FSC effectively drives the positive interaction of stream and batch models for learning from evolving data streams.&lt;/p></description></item><item><title>scikit-multiflow has been accepted at JMLR MLOSS!</title><link>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</link><pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2018-10-15-skmultiflow/</guid><description>&lt;p>Our paper describing &lt;a href="https://scikit-multiflow.github.io/">scikit-multiflow&lt;/a> has been accepted for publication at the &lt;em>Journal of Machine Learning Research - Machine Learning Open Source Software&lt;/em> (&lt;a href="http://www.jmlr.org/mloss/">JMLR MLOSS&lt;/a>).&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>
+Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p></description></item><item><title>scikit-multiflow preprint is available!</title><link>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</link><pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2018-07-13-skmultiflow/</guid><description>&lt;p>The preprint version of our paper describing &lt;a href="https://scikit-multiflow.github.io/">scikit-multiflow&lt;/a> is available on &lt;a href="https://arxiv.org/abs/1807.04662">arXiv&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>
+Scikit-multiflow is a multi-output/multi-label and stream data mining framework for the Python programming language. Conceived to serve as a platform to encourage democratization of stream learning research, it provides multiple state of the art methods for stream learning, stream generators and evaluators. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles and quality is enforced by complying with PEP8 guidelines and using continuous integration and automatic testing.&lt;/p></description></item><item><title>Talk at the University of Auckland</title><link>https://jacobmontiel.github.io/post/2018-06-22-uoa/</link><pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2018-06-22-uoa/</guid><description>&lt;p>I am giving a talk &lt;em>&amp;ldquo;Missing Data Imputation and scikit-multiflow&amp;rdquo;&lt;/em> at the &lt;a href="https://www.cs.auckland.ac.nz/research/groups/kmg/">Knowledge Management Group&lt;/a> in the &lt;a href="https://www.cs.auckland.ac.nz/en.html">University of Auckland&lt;/a> in New Zealand.&lt;/p></description></item><item><title>Visit to the University of Waikato</title><link>https://jacobmontiel.github.io/post/2018-06-11-waikato/</link><pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2018-06-11-waikato/</guid><description>&lt;p>I am visiting the &lt;a href="https://www.cs.waikato.ac.nz/~ml/">Machine Learning Group&lt;/a> at the &lt;a href="http://www.waikato.ac.nz/">University of Waikato&lt;/a> in New Zealand.&lt;/p></description></item><item><title>PAKDD 2018</title><link>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</link><pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2018-06-03-pakdd/</guid><description>&lt;p>I am attending the &lt;a href="http://prada-research.net/pakdd18/">Pacific-Asia Conference on Knowledge Discovery and Data Mining&lt;/a> (PAKDD18), to present our paper&lt;/p>
+&lt;p>&lt;strong>Scalable Model-based Cascaded Imputation of Missing Data&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>
+Missing data is a common trait of real-world data that can negatively impact interpretability. In this paper, we present CASCADE IMPUTATION (CIM), an effective and scalable technique for automatic imputation of missing data. CIM is not restrictive on the characteristics of the data set, providing support for: Missing At Random and Missing Completely At Random data, numerical and nominal attributes, and large data sets including highly dimensional data sets. We compare CIM against well-established imputation techniques over a variety of data sets under multiple test configurations to measure the impact of imputation on the classification problem. Test results show that CIM outperforms other imputation methods over multiple test conditions. Additionally, we identify optimal performance and failure conditions for popular imputation techniques.&lt;/p></description></item><item><title>IEEE BigData 2017</title><link>https://jacobmontiel.github.io/post/2017-12-11-ieee-bigdata/</link><pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2017-12-11-ieee-bigdata/</guid><description>&lt;p>I am attending the &lt;a href="http://cci.drexel.edu/bigdata/bigdata2017/index.html">2017 IEEE International Conference on Big Data&lt;/a> in Boston, Massachusetts, to present our paper&lt;/p>
+&lt;p>&lt;strong>&lt;a href="http://ieeexplore.ieee.org/document/8258084/">Predicting over-indebtedness on batch and streaming data&lt;/a>&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>
+Detecting over-indebtedness, the difficulties meeting household payment commitments, poses multiple Big Data challenges for banking institutions. We present a novel data-driven framework for predicting over-indebtedness on real-world data. A warning mechanism that generates predictions 6 months ahead, improving the chances of financial recovery. This framework is based on the combination of feature selection and supervised learning techniques, and uses data balancing for fine-tuning the predictive models. We propose two versions of the framework based on state-of-the-art batch and streaming learning techniques. To the best of our knowledge, the proposed framework is the first to cast over-indebtedness prediction as a stream learning problem. The appeal of stream learning rises from the large amount of data continuously generated, and the fact that batch models become obsolete over time as financial data evolves, while stream models are continuously updated as new data is available. We use credit data from two banks from the Groupe BPCE (the second-largest banking institution in France) and apply multi-metric criteria to evaluate model performance and fairness. Test results show the framework&amp;rsquo;s interbank applicability and that the proposed batch and stream frameworks outperform the current solution for both single and multi-metric criteria. Additionally, the generic structure of the framework serves as a template for systematically approaching similar classification problems.&lt;/p></description></item><item><title>DS3 2017</title><link>https://jacobmontiel.github.io/post/2017-08-28-ds3/</link><pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2017-08-28-ds3/</guid><description>&lt;p>I am attending the &lt;a href="http://2017.ds3-datascience-polytechnique.fr/">2017 Data Science Summer School&lt;/a> in Paris.&lt;/p>
+&lt;p>This Summer School is organized by the &lt;a href="https://portail.polytechnique.edu/datascience/en">Data Science Initiative&lt;/a> at &lt;a href="https://www.polytechnique.edu/en">École Polytechnique&lt;/a>. DS3 2017 covered a broad range of topics and speakers are top researchers on their field. A recommended summer school to get a better picture of the state-of-the-art on Data Science and new trends.&lt;/p></description></item><item><title>LXMLS 2017</title><link>https://jacobmontiel.github.io/post/2017-07-20-lxmls/</link><pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate><guid>https://jacobmontiel.github.io/post/2017-07-20-lxmls/</guid><description>&lt;p>I am attending the &lt;a href="http://lxmls.it.pt/2017/">2017 Lisbon Machine Learning School&lt;/a> in Lisbon, Portugal.&lt;/p>
+&lt;p>This Summer School took place at the Instituto Superior Técnico (&lt;a href="http://www.ist.utl.pt/">IST&lt;/a>) and covered from core concepts of Machine Learning to specific techniques of NLP. I highly recommend this summer school given that it includes practical workshops that reinforce the understanding of the topics.&lt;/p></description></item></channel></rss>
